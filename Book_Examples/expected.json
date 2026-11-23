@@ -1,0 +1,7365 @@
+{
+ "files": [
+  {
+   "name": "Ch01_1.lean",
+   "chapter": "Chapter 1: What Lean Is",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 1,
+     "section": "One system, two uses",
+     "page": 7,
+     "page_fr": 8,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 8,
+     "outputs": [
+      {
+       "line": 4,
+       "text": "42"
+      }
+     ]
+    },
+    {
+     "block": 2,
+     "section": "Proofs are terms",
+     "page": 7,
+     "page_fr": 8,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 11,
+     "last_line": 11,
+     "outputs": []
+    },
+    {
+     "block": 3,
+     "section": "Axioms",
+     "page": 8,
+     "page_fr": 9,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 14,
+     "last_line": 15,
+     "outputs": [
+      {
+       "line": 14,
+       "text": "'double_eq' depends on axioms: [propext, Quot.sound]"
+      },
+      {
+       "line": 15,
+       "text": "'swap' does not depend on any axioms"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch01_2.lean",
+   "chapter": "Chapter 1: What Lean Is",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 4,
+     "section": "What working in Lean feels like",
+     "page": 9,
+     "page_fr": 10,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 6,
+     "outputs": []
+    },
+    {
+     "block": 6,
+     "section": "Solutions",
+     "page": 10,
+     "page_fr": 12,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 9,
+     "last_line": 13,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch02_1.lean",
+   "chapter": "Chapter 2: Installing Lean and Starting a Project",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 14,
+     "section": "Checking the installation",
+     "page": 14,
+     "page_fr": 16,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 6,
+     "outputs": []
+    },
+    {
+     "block": 16,
+     "section": "Font",
+     "page": 18,
+     "page_fr": 20,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 9,
+     "last_line": 9,
+     "outputs": []
+    },
+    {
+     "block": 19,
+     "section": "Exercises",
+     "page": 21,
+     "page_fr": 24,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 12,
+     "last_line": 12,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch04_1.lean",
+   "chapter": "Chapter 4: Your First Hour in the Editor",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 20,
+     "section": "Asking Lean questions",
+     "page": 23,
+     "page_fr": 25,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 8,
+     "outputs": [
+      {
+       "line": 2,
+       "text": "2"
+      },
+      {
+       "line": 3,
+       "text": "\"Hello, Lean\""
+      },
+      {
+       "line": 4,
+       "text": "[2, 4, 6]"
+      },
+      {
+       "line": 5,
+       "text": "1024"
+      },
+      {
+       "line": 6,
+       "text": "3"
+      },
+      {
+       "line": 7,
+       "text": "0"
+      },
+      {
+       "line": 8,
+       "text": "-3"
+      }
+     ]
+    },
+    {
+     "block": 21,
+     "section": "Asking Lean questions",
+     "page": 23,
+     "page_fr": 26,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 11,
+     "last_line": 16,
+     "outputs": [
+      {
+       "line": 11,
+       "text": "1 + 1 : Nat"
+      },
+      {
+       "line": 12,
+       "text": "1 + 1 : Int"
+      },
+      {
+       "line": 13,
+       "text": "1 + 1 = 2 : Prop"
+      },
+      {
+       "line": 14,
+       "text": "Nat.succ (n : Nat) : Nat"
+      },
+      {
+       "line": 15,
+       "text": "Nat.add_comm (n m : Nat) : n + m = m + n"
+      },
+      {
+       "line": 16,
+       "text": "fun n ↦ n + 1 : Nat → Nat"
+      }
+     ]
+    },
+    {
+     "block": 22,
+     "section": "Asking Lean questions",
+     "page": 24,
+     "page_fr": 26,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 19,
+     "last_line": 24,
+     "outputs": [
+      {
+       "line": 19,
+       "text": "inductive Nat : Type number of parameters: 0 constructors: Nat.zero : Nat Nat.succ : Nat → Nat"
+      }
+     ]
+    },
+    {
+     "block": 23,
+     "section": "Statements that need a proof",
+     "page": 24,
+     "page_fr": 26,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 27,
+     "last_line": 29,
+     "outputs": []
+    },
+    {
+     "block": 25,
+     "section": "A first tactic proof, one step at a time",
+     "page": 24,
+     "page_fr": 26,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 32,
+     "last_line": 34,
+     "outputs": []
+    },
+    {
+     "block": 28,
+     "section": "Several goals and bullets",
+     "page": 25,
+     "page_fr": 27,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 37,
+     "last_line": 40,
+     "outputs": []
+    },
+    {
+     "block": 30,
+     "section": "sorry, the placeholder",
+     "page": 25,
+     "page_fr": 27,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 43,
+     "last_line": 44,
+     "outputs": []
+    },
+    {
+     "block": 32,
+     "section": "Comments",
+     "page": 26,
+     "page_fr": 28,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 47,
+     "last_line": 54,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch04_2.lean",
+   "chapter": "Chapter 4: Your First Hour in the Editor",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 33,
+     "section": "Exercises",
+     "page": 27,
+     "page_fr": 29,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 28,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch04_3.lean",
+   "chapter": "Chapter 4: Your First Hour in the Editor",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 34,
+     "section": "Solutions",
+     "page": 27,
+     "page_fr": 30,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 36,
+     "outputs": [
+      {
+       "line": 3,
+       "text": "3"
+      },
+      {
+       "line": 4,
+       "text": "2"
+      },
+      {
+       "line": 5,
+       "text": "0"
+      },
+      {
+       "line": 6,
+       "text": "-4"
+      },
+      {
+       "line": 33,
+       "text": "Nat.mul_add (n m k : Nat) : n * (m + k) = n * m + n * k"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch05_1.lean",
+   "chapter": "Chapter 5: Terms, Types and Functions",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 35,
+     "section": "Everything has a type",
+     "page": 29,
+     "page_fr": 31,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 9,
+     "outputs": [
+      {
+       "line": 2,
+       "text": "3 : Nat"
+      },
+      {
+       "line": 3,
+       "text": "3 : Int"
+      },
+      {
+       "line": 4,
+       "text": "\"abc\" : String"
+      },
+      {
+       "line": 5,
+       "text": "[1, 2, 3] : List Nat"
+      },
+      {
+       "line": 6,
+       "text": "(1, \"one\") : Nat × String"
+      },
+      {
+       "line": 7,
+       "text": "Nat → Nat : Type"
+      },
+      {
+       "line": 8,
+       "text": "Nat : Type"
+      },
+      {
+       "line": 9,
+       "text": "Type : Type 1"
+      }
+     ]
+    },
+    {
+     "block": 36,
+     "section": "Defining and applying functions",
+     "page": 29,
+     "page_fr": 31,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 12,
+     "last_line": 15,
+     "outputs": [
+      {
+       "line": 14,
+       "text": "49"
+      },
+      {
+       "line": 15,
+       "text": "square (n : Nat) : Nat"
+      }
+     ]
+    },
+    {
+     "block": 37,
+     "section": "Defining and applying functions",
+     "page": 29,
+     "page_fr": 31,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 18,
+     "last_line": 19,
+     "outputs": [
+      {
+       "line": 18,
+       "text": "10"
+      },
+      {
+       "line": 19,
+       "text": "16"
+      }
+     ]
+    },
+    {
+     "block": 38,
+     "section": "Functions of several arguments",
+     "page": 29,
+     "page_fr": 31,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 22,
+     "last_line": 26,
+     "outputs": [
+      {
+       "line": 24,
+       "text": "add (a b : Nat) : Nat"
+      },
+      {
+       "line": 25,
+       "text": "add 3 : Nat → Nat"
+      },
+      {
+       "line": 26,
+       "text": "7"
+      }
+     ]
+    },
+    {
+     "block": 39,
+     "section": "Functions of several arguments",
+     "page": 30,
+     "page_fr": 32,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 29,
+     "last_line": 31,
+     "outputs": [
+      {
+       "line": 31,
+       "text": "13"
+      }
+     ]
+    },
+    {
+     "block": 40,
+     "section": "Anonymous functions",
+     "page": 30,
+     "page_fr": 32,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 34,
+     "last_line": 36,
+     "outputs": [
+      {
+       "line": 34,
+       "text": "fun n ↦ n + 1 : Nat → Nat"
+      },
+      {
+       "line": 35,
+       "text": "6"
+      },
+      {
+       "line": 36,
+       "text": "[1, 4, 9]"
+      }
+     ]
+    },
+    {
+     "block": 41,
+     "section": "Anonymous functions",
+     "page": 30,
+     "page_fr": 32,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 39,
+     "last_line": 40,
+     "outputs": [
+      {
+       "line": 39,
+       "text": "[11, 12, 13]"
+      },
+      {
+       "line": 40,
+       "text": "25"
+      }
+     ]
+    },
+    {
+     "block": 42,
+     "section": "Anonymous functions",
+     "page": 30,
+     "page_fr": 32,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 43,
+     "last_line": 45,
+     "outputs": []
+    },
+    {
+     "block": 43,
+     "section": "Local names, conditions and cases",
+     "page": 30,
+     "page_fr": 32,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 48,
+     "last_line": 59,
+     "outputs": [
+      {
+       "line": 53,
+       "text": "25"
+      },
+      {
+       "line": 58,
+       "text": "7"
+      },
+      {
+       "line": 59,
+       "text": "7"
+      }
+     ]
+    },
+    {
+     "block": 44,
+     "section": "Local names, conditions and cases",
+     "page": 30,
+     "page_fr": 32,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 62,
+     "last_line": 67,
+     "outputs": [
+      {
+       "line": 66,
+       "text": "120"
+      },
+      {
+       "line": 67,
+       "text": "265252859812191058636308480000000"
+      }
+     ]
+    },
+    {
+     "block": 45,
+     "section": "Implicit arguments",
+     "page": 31,
+     "page_fr": 33,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 70,
+     "last_line": 72,
+     "outputs": [
+      {
+       "line": 72,
+       "text": "5"
+      }
+     ]
+    },
+    {
+     "block": 46,
+     "section": "Implicit arguments",
+     "page": 31,
+     "page_fr": 33,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 75,
+     "last_line": 80,
+     "outputs": [
+      {
+       "line": 77,
+       "text": "5"
+      },
+      {
+       "line": 78,
+       "text": "\"x\""
+      },
+      {
+       "line": 79,
+       "text": "5"
+      },
+      {
+       "line": 80,
+       "text": "5"
+      }
+     ]
+    },
+    {
+     "block": 47,
+     "section": "Implicit arguments",
+     "page": 31,
+     "page_fr": 33,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 83,
+     "last_line": 84,
+     "outputs": [
+      {
+       "line": 83,
+       "text": "List.map.{u_1, u_2} {α : Type u_1} {β : Type u_2} (f : α → β) (l : List α) : List β"
+      }
+     ]
+    },
+    {
+     "block": 48,
+     "section": "Namespaces and dot notation",
+     "page": 31,
+     "page_fr": 33,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 87,
+     "last_line": 89,
+     "outputs": [
+      {
+       "line": 87,
+       "text": "3"
+      },
+      {
+       "line": 88,
+       "text": "6"
+      },
+      {
+       "line": 89,
+       "text": "3"
+      }
+     ]
+    },
+    {
+     "block": 49,
+     "section": "Namespaces and dot notation",
+     "page": 32,
+     "page_fr": 34,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 92,
+     "last_line": 107,
+     "outputs": [
+      {
+       "line": 97,
+       "text": "12"
+      },
+      {
+       "line": 101,
+       "text": "12"
+      },
+      {
+       "line": 104,
+       "text": "14"
+      },
+      {
+       "line": 107,
+       "text": "4"
+      }
+     ]
+    },
+    {
+     "block": 50,
+     "section": "Variables and sections",
+     "page": 32,
+     "page_fr": 34,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 110,
+     "last_line": 118,
+     "outputs": [
+      {
+       "line": 117,
+       "text": "twice (α : Type) (xs : List α) : List α"
+      },
+      {
+       "line": 118,
+       "text": "[1, 2, 1, 2]"
+      }
+     ]
+    },
+    {
+     "block": 51,
+     "section": "Pairs",
+     "page": 32,
+     "page_fr": 34,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 121,
+     "last_line": 128,
+     "outputs": [
+      {
+       "line": 123,
+       "text": "1"
+      },
+      {
+       "line": 124,
+       "text": "\"one\""
+      },
+      {
+       "line": 128,
+       "text": "(\"one\", 1)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch05_2.lean",
+   "chapter": "Chapter 5: Terms, Types and Functions",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 52,
+     "section": "Exercises",
+     "page": 33,
+     "page_fr": 35,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 31,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch05_3.lean",
+   "chapter": "Chapter 5: Terms, Types and Functions",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 53,
+     "section": "Solutions",
+     "page": 34,
+     "page_fr": 36,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 31,
+     "outputs": [
+      {
+       "line": 25,
+       "text": "applyTwice fun x ↦ x + 3 : Nat → Nat"
+      },
+      {
+       "line": 26,
+       "text": "applyTwice : (Nat → Nat) → Nat → Nat"
+      },
+      {
+       "line": 27,
+       "text": "applyTwice square : Nat → Nat"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch06_1.lean",
+   "chapter": "Chapter 6: Propositions and Proofs",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 54,
+     "section": "Propositions are types",
+     "page": 35,
+     "page_fr": 37,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 7,
+     "outputs": [
+      {
+       "line": 4,
+       "text": "p ∧ q : Prop"
+      },
+      {
+       "line": 5,
+       "text": "p → q : Prop"
+      },
+      {
+       "line": 6,
+       "text": "∀ (n : Nat), n + 0 = n : Prop"
+      },
+      {
+       "line": 7,
+       "text": "∃ n, n * n = 49 : Prop"
+      }
+     ]
+    },
+    {
+     "block": 55,
+     "section": "Implication is a function type",
+     "page": 35,
+     "page_fr": 37,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 10,
+     "last_line": 15,
+     "outputs": []
+    },
+    {
+     "block": 56,
+     "section": "For all is a function type too",
+     "page": 35,
+     "page_fr": 37,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 18,
+     "last_line": 25,
+     "outputs": []
+    },
+    {
+     "block": 57,
+     "section": "And is a pair",
+     "page": 36,
+     "page_fr": 38,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 28,
+     "last_line": 33,
+     "outputs": []
+    },
+    {
+     "block": 58,
+     "section": "Or is a choice",
+     "page": 36,
+     "page_fr": 38,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 36,
+     "last_line": 44,
+     "outputs": []
+    },
+    {
+     "block": 59,
+     "section": "Not is an implication to False",
+     "page": 36,
+     "page_fr": 38,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 47,
+     "last_line": 56,
+     "outputs": []
+    },
+    {
+     "block": 60,
+     "section": "Iff is a pair of implications",
+     "page": 36,
+     "page_fr": 38,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 59,
+     "last_line": 65,
+     "outputs": []
+    },
+    {
+     "block": 61,
+     "section": "Exists is a witness with a proof",
+     "page": 37,
+     "page_fr": 39,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 68,
+     "last_line": 74,
+     "outputs": []
+    },
+    {
+     "block": 62,
+     "section": "Intermediate steps and holes",
+     "page": 37,
+     "page_fr": 39,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 77,
+     "last_line": 79,
+     "outputs": []
+    },
+    {
+     "block": 63,
+     "section": "Intermediate steps and holes",
+     "page": 37,
+     "page_fr": 40,
+     "kind": "check",
+     "required": [
+      "don't know how to synthesize placeholder"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 82,
+     "last_line": 90,
+     "outputs": []
+    },
+    {
+     "block": 64,
+     "section": "Classical reasoning",
+     "page": 38,
+     "page_fr": 40,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 93,
+     "last_line": 95,
+     "outputs": []
+    },
+    {
+     "block": 65,
+     "section": "A theorem is a function",
+     "page": 38,
+     "page_fr": 40,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 98,
+     "last_line": 102,
+     "outputs": [
+      {
+       "line": 100,
+       "text": "and_of : ∀ (p q : Prop), p → q → p ∧ q"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch06_2.lean",
+   "chapter": "Chapter 6: Propositions and Proofs",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 66,
+     "section": "Exercises",
+     "page": 39,
+     "page_fr": 41,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 35,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch06_3.lean",
+   "chapter": "Chapter 6: Propositions and Proofs",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 67,
+     "section": "Solutions",
+     "page": 39,
+     "page_fr": 42,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 41,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch07_1.lean",
+   "chapter": "Chapter 7: Tactics, the Core Toolkit",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 68,
+     "section": "Three basic moves: intro, apply, exact",
+     "page": 41,
+     "page_fr": 44,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 8,
+     "outputs": []
+    },
+    {
+     "block": 69,
+     "section": "Three basic moves: intro, apply, exact",
+     "page": 42,
+     "page_fr": 44,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 11,
+     "last_line": 14,
+     "outputs": []
+    },
+    {
+     "block": 70,
+     "section": "Forward steps: have and specialize",
+     "page": 42,
+     "page_fr": 44,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 17,
+     "last_line": 20,
+     "outputs": []
+    },
+    {
+     "block": 72,
+     "section": "Forward steps: have and specialize",
+     "page": 42,
+     "page_fr": 44,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 23,
+     "last_line": 25,
+     "outputs": []
+    },
+    {
+     "block": 73,
+     "section": "And: constructor, obtain",
+     "page": 42,
+     "page_fr": 45,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 28,
+     "last_line": 32,
+     "outputs": []
+    },
+    {
+     "block": 75,
+     "section": "Or: left, right, rcases",
+     "page": 43,
+     "page_fr": 45,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 35,
+     "last_line": 40,
+     "outputs": []
+    },
+    {
+     "block": 76,
+     "section": "Or: left, right, rcases",
+     "page": 43,
+     "page_fr": 45,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 43,
+     "last_line": 48,
+     "outputs": []
+    },
+    {
+     "block": 77,
+     "section": "Iff",
+     "page": 43,
+     "page_fr": 46,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 51,
+     "last_line": 56,
+     "outputs": []
+    },
+    {
+     "block": 78,
+     "section": "Exists: use and obtain",
+     "page": 44,
+     "page_fr": 46,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 59,
+     "last_line": 62,
+     "outputs": []
+    },
+    {
+     "block": 79,
+     "section": "Exists: use and obtain",
+     "page": 44,
+     "page_fr": 46,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 65,
+     "last_line": 68,
+     "outputs": []
+    },
+    {
+     "block": 80,
+     "section": "Exists: use and obtain",
+     "page": 44,
+     "page_fr": 46,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 71,
+     "last_line": 72,
+     "outputs": []
+    },
+    {
+     "block": 81,
+     "section": "Negation",
+     "page": 44,
+     "page_fr": 46,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 75,
+     "last_line": 77,
+     "outputs": []
+    },
+    {
+     "block": 82,
+     "section": "Negation",
+     "page": 44,
+     "page_fr": 47,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 80,
+     "last_line": 82,
+     "outputs": []
+    },
+    {
+     "block": 83,
+     "section": "Negation",
+     "page": 45,
+     "page_fr": 47,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 85,
+     "last_line": 89,
+     "outputs": []
+    },
+    {
+     "block": 84,
+     "section": "Negation",
+     "page": 45,
+     "page_fr": 47,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 92,
+     "last_line": 99,
+     "outputs": []
+    },
+    {
+     "block": 85,
+     "section": "Combining tactics",
+     "page": 46,
+     "page_fr": 48,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 102,
+     "last_line": 103,
+     "outputs": []
+    },
+    {
+     "block": 86,
+     "section": "Terms inside tactics",
+     "page": 46,
+     "page_fr": 49,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 106,
+     "last_line": 110,
+     "outputs": []
+    },
+    {
+     "block": 87,
+     "section": "A complete ε–δ proof",
+     "page": 46,
+     "page_fr": 49,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 113,
+     "last_line": 121,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch07_2.lean",
+   "chapter": "Chapter 7: Tactics, the Core Toolkit",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 91,
+     "section": "Exercises",
+     "page": 47,
+     "page_fr": 50,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 54,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch07_3.lean",
+   "chapter": "Chapter 7: Tactics, the Core Toolkit",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 92,
+     "section": "Solutions",
+     "page": 48,
+     "page_fr": 51,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 89,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch08_1.lean",
+   "chapter": "Chapter 8: Equality, Rewriting and calc",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 93,
+     "section": "Two kinds of equal",
+     "page": 51,
+     "page_fr": 53,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 5,
+     "outputs": []
+    },
+    {
+     "block": 94,
+     "section": "Two kinds of equal",
+     "page": 51,
+     "page_fr": 53,
+     "kind": "check",
+     "required": [
+      "Type mismatch … rfl … is expected to have type 0 + n = n"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 8,
+     "last_line": 12,
+     "outputs": []
+    },
+    {
+     "block": 95,
+     "section": "rw",
+     "page": 51,
+     "page_fr": 53,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 15,
+     "last_line": 17,
+     "outputs": []
+    },
+    {
+     "block": 96,
+     "section": "rw",
+     "page": 52,
+     "page_fr": 54,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 20,
+     "last_line": 25,
+     "outputs": []
+    },
+    {
+     "block": 97,
+     "section": "Rewriting with lemmas",
+     "page": 52,
+     "page_fr": 54,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 28,
+     "last_line": 30,
+     "outputs": []
+    },
+    {
+     "block": 98,
+     "section": "Rewriting with lemmas",
+     "page": 52,
+     "page_fr": 54,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 33,
+     "last_line": 35,
+     "outputs": []
+    },
+    {
+     "block": 99,
+     "section": "Rewriting with lemmas",
+     "page": 52,
+     "page_fr": 54,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 38,
+     "last_line": 40,
+     "outputs": []
+    },
+    {
+     "block": 100,
+     "section": "When rw fails",
+     "page": 52,
+     "page_fr": 54,
+     "kind": "check",
+     "required": [
+      "Tactic `rewrite` failed: Did not find an occurrence of the pattern"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 43,
+     "last_line": 48,
+     "outputs": []
+    },
+    {
+     "block": 101,
+     "section": "When rw fails",
+     "page": 52,
+     "page_fr": 54,
+     "kind": "check",
+     "required": [
+      "Did not find an occurrence of the pattern  f ?x"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 51,
+     "last_line": 56,
+     "outputs": []
+    },
+    {
+     "block": 102,
+     "section": "calc",
+     "page": 53,
+     "page_fr": 55,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 59,
+     "last_line": 63,
+     "outputs": []
+    },
+    {
+     "block": 103,
+     "section": "calc",
+     "page": 53,
+     "page_fr": 55,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 66,
+     "last_line": 69,
+     "outputs": []
+    },
+    {
+     "block": 104,
+     "section": "calc",
+     "page": 53,
+     "page_fr": 55,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 72,
+     "last_line": 74,
+     "outputs": []
+    },
+    {
+     "block": 105,
+     "section": "simp",
+     "page": 53,
+     "page_fr": 55,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 77,
+     "last_line": 77,
+     "outputs": []
+    },
+    {
+     "block": 106,
+     "section": "simp",
+     "page": 53,
+     "page_fr": 56,
+     "kind": "check",
+     "required": [
+      "unsolved goals  … ⊢ a = b"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 80,
+     "last_line": 83,
+     "outputs": []
+    },
+    {
+     "block": 108,
+     "section": "simp",
+     "page": 54,
+     "page_fr": 56,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 86,
+     "last_line": 87,
+     "outputs": []
+    },
+    {
+     "block": 109,
+     "section": "Definitions: unfold",
+     "page": 54,
+     "page_fr": 56,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 90,
+     "last_line": 94,
+     "outputs": []
+    },
+    {
+     "block": 110,
+     "section": "Equality of functions: ext",
+     "page": 54,
+     "page_fr": 57,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 97,
+     "last_line": 99,
+     "outputs": []
+    },
+    {
+     "block": 111,
+     "section": "Other tools for equalities",
+     "page": 55,
+     "page_fr": 57,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 102,
+     "last_line": 108,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch08_2.lean",
+   "chapter": "Chapter 8: Equality, Rewriting and calc",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 112,
+     "section": "Exercises",
+     "page": 55,
+     "page_fr": 57,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 47,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch08_3.lean",
+   "chapter": "Chapter 8: Equality, Rewriting and calc",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 113,
+     "section": "Solutions",
+     "page": 56,
+     "page_fr": 58,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 58,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch09_1.lean",
+   "chapter": "Chapter 9: Inductive Types, Recursion and Induction",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 114,
+     "section": "Types defined by their constructors",
+     "page": 58,
+     "page_fr": 60,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 6,
+     "outputs": []
+    },
+    {
+     "block": 115,
+     "section": "Types defined by their constructors",
+     "page": 58,
+     "page_fr": 60,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 9,
+     "last_line": 21,
+     "outputs": [
+      {
+       "line": 9,
+       "text": "inductive Nat : Type number of parameters: 0 constructors: Nat.zero : ℕ Nat.succ : ℕ → ℕ"
+      },
+      {
+       "line": 16,
+       "text": "inductive List.{u} : Type u → Type u number of parameters: 1 constructors: List.nil : {α : Type u} → List α List.cons : {α : Type u} → α → List α → List α"
+      }
+     ]
+    },
+    {
+     "block": 116,
+     "section": "Functions by cases",
+     "page": 58,
+     "page_fr": 60,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 24,
+     "last_line": 29,
+     "outputs": [
+      {
+       "line": 29,
+       "text": "Weekday.tuesday"
+      }
+     ]
+    },
+    {
+     "block": 117,
+     "section": "Proofs by cases",
+     "page": 59,
+     "page_fr": 61,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 32,
+     "last_line": 33,
+     "outputs": []
+    },
+    {
+     "block": 119,
+     "section": "Recursive functions",
+     "page": 59,
+     "page_fr": 61,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 36,
+     "last_line": 51,
+     "outputs": [
+      {
+       "line": 40,
+       "text": "6"
+      },
+      {
+       "line": 51,
+       "text": "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]"
+      }
+     ]
+    },
+    {
+     "block": 120,
+     "section": "Induction",
+     "page": 59,
+     "page_fr": 61,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 54,
+     "last_line": 60,
+     "outputs": []
+    },
+    {
+     "block": 122,
+     "section": "Induction",
+     "page": 60,
+     "page_fr": 62,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 63,
+     "last_line": 67,
+     "outputs": []
+    },
+    {
+     "block": 123,
+     "section": "Other induction principles",
+     "page": 60,
+     "page_fr": 62,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 70,
+     "last_line": 76,
+     "outputs": []
+    },
+    {
+     "block": 124,
+     "section": "Other induction principles",
+     "page": 60,
+     "page_fr": 62,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 79,
+     "last_line": 87,
+     "outputs": []
+    },
+    {
+     "block": 125,
+     "section": "Other induction principles",
+     "page": 61,
+     "page_fr": 63,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 90,
+     "last_line": 93,
+     "outputs": []
+    },
+    {
+     "block": 126,
+     "section": "Inductive predicates",
+     "page": 61,
+     "page_fr": 63,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 96,
+     "last_line": 98,
+     "outputs": []
+    },
+    {
+     "block": 127,
+     "section": "Inductive predicates",
+     "page": 61,
+     "page_fr": 63,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 101,
+     "last_line": 104,
+     "outputs": []
+    },
+    {
+     "block": 128,
+     "section": "Inductive predicates",
+     "page": 61,
+     "page_fr": 63,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 107,
+     "last_line": 109,
+     "outputs": []
+    },
+    {
+     "block": 129,
+     "section": "Inductive predicates",
+     "page": 61,
+     "page_fr": 63,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 112,
+     "last_line": 118,
+     "outputs": []
+    },
+    {
+     "block": 130,
+     "section": "Logic is made of inductive types",
+     "page": 62,
+     "page_fr": 64,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 121,
+     "last_line": 137,
+     "outputs": [
+      {
+       "line": 121,
+       "text": "inductive Or : Prop → Prop → Prop number of parameters: 2 constructors: Or.inl : ∀ {a b : Prop}, a → a ∨ b Or.inr : ∀ {a b : Prop}, b → a ∨ b"
+      },
+      {
+       "line": 128,
+       "text": "inductive False : Prop number of parameters: 0 constructors:"
+      },
+      {
+       "line": 133,
+       "text": "inductive Eq.{u_1} : {α : Sort u_1} → α → α → Prop number of parameters: 2 constructors: Eq.refl : ∀ {α : Sort u_1} (a : α), a = a"
+      }
+     ]
+    },
+    {
+     "block": 131,
+     "section": "Recursion that is not structural",
+     "page": 62,
+     "page_fr": 64,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 140,
+     "last_line": 146,
+     "outputs": [
+      {
+       "line": 146,
+       "text": "6"
+      }
+     ]
+    },
+    {
+     "block": 132,
+     "section": "Recursion that is not structural",
+     "page": 62,
+     "page_fr": 64,
+     "kind": "check",
+     "required": [
+      "fail to show termination for bad …"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 149,
+     "last_line": 154,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch09_2.lean",
+   "chapter": "Chapter 9: Inductive Types, Recursion and Induction",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 133,
+     "section": "Exercises",
+     "page": 63,
+     "page_fr": 65,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 53,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch09_3.lean",
+   "chapter": "Chapter 9: Inductive Types, Recursion and Induction",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 134,
+     "section": "Solutions",
+     "page": 63,
+     "page_fr": 66,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 70,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch10_1.lean",
+   "chapter": "Chapter 10: Structures and Type Classes",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 135,
+     "section": "Structures",
+     "page": 66,
+     "page_fr": 68,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 6,
+     "outputs": []
+    },
+    {
+     "block": 136,
+     "section": "Structures",
+     "page": 66,
+     "page_fr": 68,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 9,
+     "last_line": 10,
+     "outputs": [
+      {
+       "line": 9,
+       "text": "Point.mk (x y : ℝ) : Point"
+      },
+      {
+       "line": 10,
+       "text": "Point.x (self : Point) : ℝ"
+      }
+     ]
+    },
+    {
+     "block": 137,
+     "section": "Structures",
+     "page": 66,
+     "page_fr": 68,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 13,
+     "last_line": 17,
+     "outputs": [
+      {
+       "line": 17,
+       "text": "p1.x : ℝ"
+      }
+     ]
+    },
+    {
+     "block": 138,
+     "section": "Structures",
+     "page": 66,
+     "page_fr": 68,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 20,
+     "last_line": 23,
+     "outputs": []
+    },
+    {
+     "block": 139,
+     "section": "Structures",
+     "page": 66,
+     "page_fr": 68,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 26,
+     "last_line": 28,
+     "outputs": []
+    },
+    {
+     "block": 140,
+     "section": "When are two structures equal?",
+     "page": 66,
+     "page_fr": 68,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 31,
+     "last_line": 41,
+     "outputs": [
+      {
+       "line": 35,
+       "text": "∀ {x y : Vec2}, x.x = y.x → x.y = y.y → x = y"
+      }
+     ]
+    },
+    {
+     "block": 141,
+     "section": "Fields can be proofs",
+     "page": 67,
+     "page_fr": 69,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 44,
+     "last_line": 55,
+     "outputs": []
+    },
+    {
+     "block": 142,
+     "section": "Structures of hypotheses",
+     "page": 67,
+     "page_fr": 69,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 58,
+     "last_line": 60,
+     "outputs": []
+    },
+    {
+     "block": 143,
+     "section": "Structures of hypotheses",
+     "page": 67,
+     "page_fr": 69,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 63,
+     "last_line": 70,
+     "outputs": []
+    },
+    {
+     "block": 144,
+     "section": "Structures of hypotheses",
+     "page": 67,
+     "page_fr": 69,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 73,
+     "last_line": 78,
+     "outputs": []
+    },
+    {
+     "block": 145,
+     "section": "Type classes: one name, many types",
+     "page": 68,
+     "page_fr": 70,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 81,
+     "last_line": 95,
+     "outputs": []
+    },
+    {
+     "block": 146,
+     "section": "Type classes: one name, many types",
+     "page": 68,
+     "page_fr": 70,
+     "kind": "check",
+     "required": [],
+     "allowed": [
+      "failed to synthesize instance of type class"
+     ],
+     "lint": false,
+     "judge": true,
+     "first_line": 98,
+     "last_line": 106,
+     "outputs": [
+      {
+       "line": 100,
+       "text": "@twiceArea : {α : Type} → [HasArea α] → α → ℝ"
+      }
+     ]
+    },
+    {
+     "block": 148,
+     "section": "Notation is type classes",
+     "page": 69,
+     "page_fr": 71,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 109,
+     "last_line": 114,
+     "outputs": [
+      {
+       "line": 112,
+       "text": "p1 + p2 : Point"
+      }
+     ]
+    },
+    {
+     "block": 149,
+     "section": "The algebraic hierarchy",
+     "page": 69,
+     "page_fr": 71,
+     "kind": "check",
+     "required": [
+      "failed to synthesize  Field ℤ"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 117,
+     "last_line": 120,
+     "outputs": [
+      {
+       "line": 117,
+       "text": "Real.instField"
+      },
+      {
+       "line": 118,
+       "text": "Real.linearOrder"
+      },
+      {
+       "line": 119,
+       "text": "Int.instRing"
+      }
+     ]
+    },
+    {
+     "block": 150,
+     "section": "The algebraic hierarchy",
+     "page": 69,
+     "page_fr": 71,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 123,
+     "last_line": 130,
+     "outputs": [
+      {
+       "line": 123,
+       "text": "∀ {G : Type u_1} [inst : CommMagma G] (a b : G), a * b = b * a"
+      },
+      {
+       "line": 126,
+       "text": "∀ {G : Type u_1} [inst : Group G] (a : G), a * a⁻¹ = 1"
+      },
+      {
+       "line": 129,
+       "text": "∀ {α : Type u_1} [inst : Preorder α] {a b c : α}, a ≤ b → b ≤ c → a ≤ c"
+      }
+     ]
+    },
+    {
+     "block": 151,
+     "section": "The algebraic hierarchy",
+     "page": 69,
+     "page_fr": 71,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 133,
+     "last_line": 139,
+     "outputs": []
+    },
+    {
+     "block": 152,
+     "section": "The algebraic hierarchy",
+     "page": 69,
+     "page_fr": 72,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 142,
+     "last_line": 147,
+     "outputs": []
+    },
+    {
+     "block": 153,
+     "section": "Building a class from other classes",
+     "page": 70,
+     "page_fr": 72,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 150,
+     "last_line": 158,
+     "outputs": []
+    },
+    {
+     "block": 154,
+     "section": "Building a class from other classes",
+     "page": 70,
+     "page_fr": 72,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 161,
+     "last_line": 167,
+     "outputs": []
+    },
+    {
+     "block": 155,
+     "section": "Coercions",
+     "page": 70,
+     "page_fr": 72,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 170,
+     "last_line": 174,
+     "outputs": [
+      {
+       "line": 170,
+       "text": "↑3 : ℝ"
+      }
+     ]
+    },
+    {
+     "block": 156,
+     "section": "Coercions",
+     "page": 71,
+     "page_fr": 73,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 177,
+     "last_line": 185,
+     "outputs": [
+      {
+       "line": 185,
+       "text": "5"
+      }
+     ]
+    },
+    {
+     "block": 157,
+     "section": "Coercions",
+     "page": 71,
+     "page_fr": 73,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 188,
+     "last_line": 189,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch10_2.lean",
+   "chapter": "Chapter 10: Structures and Type Classes",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 158,
+     "section": "Exercises",
+     "page": 71,
+     "page_fr": 73,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 59,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch10_3.lean",
+   "chapter": "Chapter 10: Structures and Type Classes",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 159,
+     "section": "Solutions",
+     "page": 72,
+     "page_fr": 75,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 67,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch11_1.lean",
+   "chapter": "Chapter 11: Dependent Type Theory, One Level Deeper",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 160,
+     "section": "Types have types",
+     "page": 75,
+     "page_fr": 77,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 9,
+     "outputs": [
+      {
+       "line": 4,
+       "text": "ℕ : Type"
+      },
+      {
+       "line": 5,
+       "text": "2 + 2 = 4 : Prop"
+      },
+      {
+       "line": 6,
+       "text": "Prop : Type"
+      },
+      {
+       "line": 7,
+       "text": "Type : Type 1"
+      },
+      {
+       "line": 8,
+       "text": "Type 1 : Type 2"
+      },
+      {
+       "line": 9,
+       "text": "ℕ → Type : Type 1"
+      }
+     ]
+    },
+    {
+     "block": 161,
+     "section": "Functions whose result type depends on the argument",
+     "page": 75,
+     "page_fr": 77,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 12,
+     "last_line": 17,
+     "outputs": [
+      {
+       "line": 12,
+       "text": "Fin 3 : Type"
+      },
+      {
+       "line": 16,
+       "text": "lastOf : (n : ℕ) → Fin (n + 1)"
+      },
+      {
+       "line": 17,
+       "text": "4"
+      }
+     ]
+    },
+    {
+     "block": 162,
+     "section": "Functions whose result type depends on the argument",
+     "page": 76,
+     "page_fr": 78,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 20,
+     "last_line": 21,
+     "outputs": [
+      {
+       "line": 20,
+       "text": "∀ (n : ℕ), n = n : Prop"
+      },
+      {
+       "line": 21,
+       "text": "(n : ℕ) → Fin (n + 1) : Type"
+      }
+     ]
+    },
+    {
+     "block": 163,
+     "section": "Equal by computation, equal by proof",
+     "page": 76,
+     "page_fr": 78,
+     "kind": "check",
+     "required": [
+      ""
+     ],
+     "allowed": [
+      "Type mismatch"
+     ],
+     "lint": false,
+     "judge": true,
+     "first_line": 24,
+     "last_line": 25,
+     "outputs": []
+    },
+    {
+     "block": 165,
+     "section": "Equal by computation, equal by proof",
+     "page": 76,
+     "page_fr": 78,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 28,
+     "last_line": 32,
+     "outputs": []
+    },
+    {
+     "block": 166,
+     "section": "Equal by computation, equal by proof",
+     "page": 76,
+     "page_fr": 79,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 35,
+     "last_line": 37,
+     "outputs": []
+    },
+    {
+     "block": 167,
+     "section": "Automation does not look inside your definitions",
+     "page": 77,
+     "page_fr": 79,
+     "kind": "check",
+     "required": [
+      "unsolved goals ⊢ square x = x ^ 2"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 40,
+     "last_line": 46,
+     "outputs": []
+    },
+    {
+     "block": 168,
+     "section": "Propositions carry no data",
+     "page": 77,
+     "page_fr": 79,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 49,
+     "last_line": 49,
+     "outputs": []
+    },
+    {
+     "block": 169,
+     "section": "Propositions carry no data",
+     "page": 77,
+     "page_fr": 79,
+     "kind": "check",
+     "required": [],
+     "allowed": [
+      "Tactic `cases` failed with a nested error:"
+     ],
+     "lint": false,
+     "judge": true,
+     "first_line": 52,
+     "last_line": 54,
+     "outputs": []
+    },
+    {
+     "block": 171,
+     "section": "Subtypes",
+     "page": 77,
+     "page_fr": 80,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 57,
+     "last_line": 60,
+     "outputs": [
+      {
+       "line": 59,
+       "text": "↑two : ℝ"
+      },
+      {
+       "line": 60,
+       "text": "two.property : 0 < ↑two"
+      }
+     ]
+    },
+    {
+     "block": 172,
+     "section": "Subtypes",
+     "page": 78,
+     "page_fr": 80,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 63,
+     "last_line": 70,
+     "outputs": []
+    },
+    {
+     "block": 173,
+     "section": "Subtypes",
+     "page": 78,
+     "page_fr": 80,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 73,
+     "last_line": 73,
+     "outputs": []
+    },
+    {
+     "block": 174,
+     "section": "Quotients",
+     "page": 78,
+     "page_fr": 80,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 76,
+     "last_line": 85,
+     "outputs": []
+    },
+    {
+     "block": 175,
+     "section": "Quotients",
+     "page": 78,
+     "page_fr": 81,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 88,
+     "last_line": 102,
+     "outputs": [
+      {
+       "line": 96,
+       "text": "1"
+      }
+     ]
+    },
+    {
+     "block": 176,
+     "section": "Choice and noncomputable",
+     "page": 79,
+     "page_fr": 81,
+     "kind": "check",
+     "required": [],
+     "allowed": [
+      "failed to compile definition, consider marking it as 'noncomputable'"
+     ],
+     "lint": false,
+     "judge": true,
+     "first_line": 105,
+     "last_line": 111,
+     "outputs": [
+      {
+       "line": 105,
+       "text": "{p : α → Prop} → (∃ x, p x) → α"
+      },
+      {
+       "line": 106,
+       "text": "(h : ∃ x, p x), p (Classical.choose h)"
+      }
+     ]
+    },
+    {
+     "block": 178,
+     "section": "Choice and noncomputable",
+     "page": 80,
+     "page_fr": 82,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 114,
+     "last_line": 119,
+     "outputs": []
+    },
+    {
+     "block": 179,
+     "section": "Decidability and if",
+     "page": 80,
+     "page_fr": 82,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 122,
+     "last_line": 124,
+     "outputs": [
+      {
+       "line": 122,
+       "text": "1"
+      }
+     ]
+    },
+    {
+     "block": 180,
+     "section": "Decidability and if",
+     "page": 80,
+     "page_fr": 82,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 127,
+     "last_line": 134,
+     "outputs": []
+    },
+    {
+     "block": 181,
+     "section": "Decidability and if",
+     "page": 80,
+     "page_fr": 82,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 137,
+     "last_line": 138,
+     "outputs": []
+    },
+    {
+     "block": 182,
+     "section": "Decidability and if",
+     "page": 80,
+     "page_fr": 83,
+     "kind": "check",
+     "required": [
+      "reduction got stuck at Classical.choice"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 141,
+     "last_line": 143,
+     "outputs": []
+    },
+    {
+     "block": 183,
+     "section": "The axioms, again",
+     "page": 80,
+     "page_fr": 83,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 146,
+     "last_line": 148,
+     "outputs": [
+      {
+       "line": 146,
+       "text": "'funext' depends on axioms: [Quot.sound]"
+      },
+      {
+       "line": 147,
+       "text": "'Classical.em' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      }
+     ]
+    },
+    {
+     "block": 184,
+     "section": "Errors you will meet here",
+     "page": 81,
+     "page_fr": 84,
+     "kind": "check",
+     "required": [
+      "motive is not type correct"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 151,
+     "last_line": 159,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch11_2.lean",
+   "chapter": "Chapter 11: Dependent Type Theory, One Level Deeper",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 185,
+     "section": "Exercises",
+     "page": 81,
+     "page_fr": 84,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 48,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch11_3.lean",
+   "chapter": "Chapter 11: Dependent Type Theory, One Level Deeper",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 186,
+     "section": "Solutions",
+     "page": 82,
+     "page_fr": 85,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 64,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch12_1.lean",
+   "chapter": "Chapter 12: Finding Things in Mathlib",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 187,
+     "section": "Let Lean search: exact?, apply?, rw?",
+     "page": 84,
+     "page_fr": 88,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 11,
+     "outputs": []
+    },
+    {
+     "block": 188,
+     "section": "Let Lean search: exact?, apply?, rw?",
+     "page": 85,
+     "page_fr": 88,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 14,
+     "last_line": 18,
+     "outputs": []
+    },
+    {
+     "block": 189,
+     "section": "Let Lean search: exact?, apply?, rw?",
+     "page": 85,
+     "page_fr": 88,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 21,
+     "last_line": 23,
+     "outputs": []
+    },
+    {
+     "block": 190,
+     "section": "Guess the name",
+     "page": 86,
+     "page_fr": 89,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 26,
+     "last_line": 30,
+     "outputs": [
+      {
+       "line": 26,
+       "text": "|a * b| = |a| * |b|"
+      },
+      {
+       "line": 27,
+       "text": "(a + b) ^ 2 = a ^ 2 + 2 * a * b + b ^ 2"
+      },
+      {
+       "line": 28,
+       "text": "- -a = a"
+      },
+      {
+       "line": 29,
+       "text": "a - b = a + -b"
+      },
+      {
+       "line": 30,
+       "text": "2 * n = n + n"
+      }
+     ]
+    },
+    {
+     "block": 191,
+     "section": "Guess the name",
+     "page": 86,
+     "page_fr": 89,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 33,
+     "last_line": 35,
+     "outputs": [
+      {
+       "line": 33,
+       "text": "a < b → b ≤ c → a < c"
+      },
+      {
+       "line": 34,
+       "text": "a < b → a ≤ b"
+      },
+      {
+       "line": 35,
+       "text": "b < a → a ≠ b"
+      }
+     ]
+    },
+    {
+     "block": 192,
+     "section": "Guess the name",
+     "page": 87,
+     "page_fr": 90,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 38,
+     "last_line": 42,
+     "outputs": [
+      {
+       "line": 38,
+       "text": "∑ x ∈ Finset.range (n + 1), f x = ∑ x ∈ Finset.range n, f x + f n"
+      },
+      {
+       "line": 41,
+       "text": "(∀ i ∈ s, f i ≤ g i) → ∑ i ∈ s, f i ≤ ∑ i ∈ s, g i"
+      }
+     ]
+    },
+    {
+     "block": 193,
+     "section": "Dot notation finds lemmas for you",
+     "page": 87,
+     "page_fr": 91,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 45,
+     "last_line": 50,
+     "outputs": []
+    },
+    {
+     "block": 194,
+     "section": "Dot notation finds lemmas for you",
+     "page": 88,
+     "page_fr": 91,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 53,
+     "last_line": 55,
+     "outputs": []
+    },
+    {
+     "block": 197,
+     "section": "Read the source",
+     "page": 89,
+     "page_fr": 92,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 58,
+     "last_line": 60,
+     "outputs": []
+    },
+    {
+     "block": 198,
+     "section": "Names change",
+     "page": 89,
+     "page_fr": 93,
+     "kind": "check",
+     "required": [
+      "Unknown constant `Set.not_mem_empty`",
+      "Unknown identifier `abs_add`"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 63,
+     "last_line": 70,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch12_2.lean",
+   "chapter": "Chapter 12: Finding Things in Mathlib",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 199,
+     "section": "Exercises",
+     "page": 90,
+     "page_fr": 93,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 36,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch12_3.lean",
+   "chapter": "Chapter 12: Finding Things in Mathlib",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 200,
+     "section": "Solutions",
+     "page": 91,
+     "page_fr": 94,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 24,
+     "outputs": [
+      {
+       "line": 21,
+       "text": "0 ≤ a - b ↔ b ≤ a"
+      },
+      {
+       "line": 22,
+       "text": "0 ≤ a * a"
+      },
+      {
+       "line": 23,
+       "text": "0 < c → (a ≤ b / c ↔ a * c ≤ b)"
+      },
+      {
+       "line": 24,
+       "text": "|a - b| = |b - a|"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch13_1.lean",
+   "chapter": "Chapter 13: Automation",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 201,
+     "section": "Equalities: ring",
+     "page": 93,
+     "page_fr": 97,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 7,
+     "outputs": []
+    },
+    {
+     "block": 202,
+     "section": "Equalities: ring",
+     "page": 93,
+     "page_fr": 97,
+     "kind": "check",
+     "required": [
+      "unsolved goals  ⊢ a ^ 2 = 1 + b * 2 + b ^ 2"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 10,
+     "last_line": 12,
+     "outputs": []
+    },
+    {
+     "block": 203,
+     "section": "Equalities: ring",
+     "page": 93,
+     "page_fr": 98,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 15,
+     "last_line": 27,
+     "outputs": []
+    },
+    {
+     "block": 204,
+     "section": "Equalities: ring",
+     "page": 94,
+     "page_fr": 98,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 30,
+     "last_line": 33,
+     "outputs": []
+    },
+    {
+     "block": 205,
+     "section": "Equalities with division: field_simp",
+     "page": 94,
+     "page_fr": 98,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 36,
+     "last_line": 43,
+     "outputs": []
+    },
+    {
+     "block": 206,
+     "section": "Inequalities: linarith",
+     "page": 94,
+     "page_fr": 98,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 46,
+     "last_line": 52,
+     "outputs": []
+    },
+    {
+     "block": 207,
+     "section": "Inequalities: linarith",
+     "page": 95,
+     "page_fr": 99,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 55,
+     "last_line": 62,
+     "outputs": []
+    },
+    {
+     "block": 208,
+     "section": "Inequalities: nlinarith",
+     "page": 95,
+     "page_fr": 99,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 65,
+     "last_line": 69,
+     "outputs": []
+    },
+    {
+     "block": 209,
+     "section": "Inequalities: nlinarith",
+     "page": 95,
+     "page_fr": 99,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 72,
+     "last_line": 76,
+     "outputs": []
+    },
+    {
+     "block": 210,
+     "section": "Signs: positivity",
+     "page": 95,
+     "page_fr": 100,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 79,
+     "last_line": 83,
+     "outputs": []
+    },
+    {
+     "block": 211,
+     "section": "Signs: positivity",
+     "page": 95,
+     "page_fr": 100,
+     "kind": "check",
+     "required": [
+      "failed to prove positivity/nonnegativity/nonzeroness"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 86,
+     "last_line": 89,
+     "outputs": []
+    },
+    {
+     "block": 212,
+     "section": "Monotonicity: gcongr",
+     "page": 96,
+     "page_fr": 100,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 92,
+     "last_line": 98,
+     "outputs": []
+    },
+    {
+     "block": 213,
+     "section": "Monotonicity: gcongr",
+     "page": 96,
+     "page_fr": 100,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 101,
+     "last_line": 105,
+     "outputs": []
+    },
+    {
+     "block": 214,
+     "section": "Explicit numbers: norm_num",
+     "page": 96,
+     "page_fr": 101,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 108,
+     "last_line": 114,
+     "outputs": []
+    },
+    {
+     "block": 215,
+     "section": "Explicit numbers: norm_num",
+     "page": 96,
+     "page_fr": 101,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 117,
+     "last_line": 120,
+     "outputs": []
+    },
+    {
+     "block": 216,
+     "section": "Integers and naturals: omega",
+     "page": 97,
+     "page_fr": 101,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 123,
+     "last_line": 126,
+     "outputs": []
+    },
+    {
+     "block": 217,
+     "section": "Integers and naturals: omega",
+     "page": 97,
+     "page_fr": 101,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 129,
+     "last_line": 132,
+     "outputs": []
+    },
+    {
+     "block": 218,
+     "section": "simp, in depth",
+     "page": 98,
+     "page_fr": 102,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 135,
+     "last_line": 140,
+     "outputs": []
+    },
+    {
+     "block": 220,
+     "section": "simp, in depth",
+     "page": 98,
+     "page_fr": 102,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 143,
+     "last_line": 146,
+     "outputs": []
+    },
+    {
+     "block": 221,
+     "section": "simp, in depth",
+     "page": 98,
+     "page_fr": 103,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 149,
+     "last_line": 153,
+     "outputs": []
+    },
+    {
+     "block": 222,
+     "section": "Logic and search: tauto, aesop, grind",
+     "page": 98,
+     "page_fr": 103,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 156,
+     "last_line": 160,
+     "outputs": []
+    },
+    {
+     "block": 223,
+     "section": "Logic and search: tauto, aesop, grind",
+     "page": 99,
+     "page_fr": 103,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 163,
+     "last_line": 169,
+     "outputs": []
+    },
+    {
+     "block": 224,
+     "section": "Logic and search: tauto, aesop, grind",
+     "page": 99,
+     "page_fr": 103,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 172,
+     "last_line": 173,
+     "outputs": []
+    },
+    {
+     "block": 225,
+     "section": "A worked estimate",
+     "page": 99,
+     "page_fr": 103,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 176,
+     "last_line": 181,
+     "outputs": []
+    },
+    {
+     "block": 226,
+     "section": "A worked estimate",
+     "page": 99,
+     "page_fr": 104,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 184,
+     "last_line": 187,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch13_2.lean",
+   "chapter": "Chapter 13: Automation",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 227,
+     "section": "Exercises",
+     "page": 101,
+     "page_fr": 106,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 49,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch13_3.lean",
+   "chapter": "Chapter 13: Automation",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 228,
+     "section": "Solutions",
+     "page": 102,
+     "page_fr": 107,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 54,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch14_1.lean",
+   "chapter": "Chapter 14: Numbers, Casts and Their Traps",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 229,
+     "section": "A numeral takes its type from its surroundings",
+     "page": 104,
+     "page_fr": 108,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 7,
+     "outputs": [
+      {
+       "line": 4,
+       "text": "2 : ℕ"
+      },
+      {
+       "line": 5,
+       "text": "2 : ℝ"
+      },
+      {
+       "line": 6,
+       "text": "2 + 2 : ℝ"
+      },
+      {
+       "line": 7,
+       "text": "1 / 2 : ℝ"
+      }
+     ]
+    },
+    {
+     "block": 230,
+     "section": "A numeral takes its type from its surroundings",
+     "page": 104,
+     "page_fr": 108,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 10,
+     "last_line": 14,
+     "outputs": [
+      {
+       "line": 10,
+       "text": "0"
+      },
+      {
+       "line": 11,
+       "text": "1 / 2"
+      }
+     ]
+    },
+    {
+     "block": 231,
+     "section": "A numeral takes its type from its surroundings",
+     "page": 105,
+     "page_fr": 109,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 17,
+     "last_line": 20,
+     "outputs": [
+      {
+       "line": 17,
+       "text": "fun n ↦ ↑n / 2"
+      },
+      {
+       "line": 18,
+       "text": "fun n ↦ ↑(n / 2)"
+      },
+      {
+       "line": 19,
+       "text": "fun n m ↦ ↑n + ↑m"
+      },
+      {
+       "line": 20,
+       "text": "fun n m ↦ ↑(n + m)"
+      }
+     ]
+    },
+    {
+     "block": 232,
+     "section": "Subtraction on ℕ",
+     "page": 105,
+     "page_fr": 109,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 23,
+     "last_line": 26,
+     "outputs": [
+      {
+       "line": 23,
+       "text": "0"
+      }
+     ]
+    },
+    {
+     "block": 233,
+     "section": "Division",
+     "page": 105,
+     "page_fr": 109,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 29,
+     "last_line": 34,
+     "outputs": [
+      {
+       "line": 29,
+       "text": "3"
+      },
+      {
+       "line": 30,
+       "text": "1"
+      },
+      {
+       "line": 31,
+       "text": "-4"
+      }
+     ]
+    },
+    {
+     "block": 234,
+     "section": "Division",
+     "page": 105,
+     "page_fr": 110,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 37,
+     "last_line": 40,
+     "outputs": [
+      {
+       "line": 37,
+       "text": "a ≠ 0 → a / a = 1"
+      },
+      {
+       "line": 38,
+       "text": "b ≠ 0 → d ≠ 0 → a / b + c / d = (a * d + b * c) / (b * d)"
+      }
+     ]
+    },
+    {
+     "block": 235,
+     "section": "Division",
+     "page": 106,
+     "page_fr": 110,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 43,
+     "last_line": 45,
+     "outputs": []
+    },
+    {
+     "block": 236,
+     "section": "Casts",
+     "page": 106,
+     "page_fr": 110,
+     "kind": "check",
+     "required": [
+      "Type mismatch"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 48,
+     "last_line": 55,
+     "outputs": []
+    },
+    {
+     "block": 237,
+     "section": "Casts",
+     "page": 106,
+     "page_fr": 110,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 58,
+     "last_line": 64,
+     "outputs": [
+      {
+       "line": 58,
+       "text": "↑(m + n) = ↑m + ↑n"
+      },
+      {
+       "line": 59,
+       "text": "↑(m * n) = ↑m * ↑n"
+      },
+      {
+       "line": 60,
+       "text": "↑(m ^ n) = ↑m ^ n"
+      },
+      {
+       "line": 61,
+       "text": "↑m ≤ ↑n ↔ m ≤ n"
+      },
+      {
+       "line": 62,
+       "text": "↑m < ↑n ↔ m < n"
+      },
+      {
+       "line": 63,
+       "text": "↑m = ↑n ↔ m = n"
+      },
+      {
+       "line": 64,
+       "text": "m ≤ n → ↑(n - m) = ↑n - ↑m"
+      }
+     ]
+    },
+    {
+     "block": 238,
+     "section": "Casts",
+     "page": 107,
+     "page_fr": 111,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 67,
+     "last_line": 78,
+     "outputs": []
+    },
+    {
+     "block": 239,
+     "section": "Casts",
+     "page": 107,
+     "page_fr": 111,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 81,
+     "last_line": 83,
+     "outputs": []
+    },
+    {
+     "block": 240,
+     "section": "Casts",
+     "page": 107,
+     "page_fr": 111,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 86,
+     "last_line": 89,
+     "outputs": []
+    },
+    {
+     "block": 241,
+     "section": "Casts",
+     "page": 107,
+     "page_fr": 111,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 92,
+     "last_line": 95,
+     "outputs": []
+    },
+    {
+     "block": 242,
+     "section": "Powers",
+     "page": 108,
+     "page_fr": 112,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 98,
+     "last_line": 101,
+     "outputs": []
+    },
+    {
+     "block": 243,
+     "section": "Powers",
+     "page": 108,
+     "page_fr": 112,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 104,
+     "last_line": 104,
+     "outputs": []
+    },
+    {
+     "block": 244,
+     "section": "Powers",
+     "page": 108,
+     "page_fr": 112,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 107,
+     "last_line": 107,
+     "outputs": []
+    },
+    {
+     "block": 245,
+     "section": "Absolute value, min, max",
+     "page": 108,
+     "page_fr": 112,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 110,
+     "last_line": 117,
+     "outputs": []
+    },
+    {
+     "block": 246,
+     "section": "Absolute value, min, max",
+     "page": 109,
+     "page_fr": 113,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 120,
+     "last_line": 120,
+     "outputs": []
+    },
+    {
+     "block": 247,
+     "section": "Floor and the Archimedean property",
+     "page": 109,
+     "page_fr": 113,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 123,
+     "last_line": 129,
+     "outputs": []
+    },
+    {
+     "block": 248,
+     "section": "Real numbers and decimals",
+     "page": 109,
+     "page_fr": 113,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 132,
+     "last_line": 135,
+     "outputs": [
+      {
+       "line": 134,
+       "text": "0.300000"
+      },
+      {
+       "line": 135,
+       "text": "3 / 10"
+      }
+     ]
+    },
+    {
+     "block": 249,
+     "section": "Real numbers and decimals",
+     "page": 109,
+     "page_fr": 114,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 138,
+     "last_line": 141,
+     "outputs": []
+    },
+    {
+     "block": 250,
+     "section": "Complex numbers",
+     "page": 110,
+     "page_fr": 114,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 144,
+     "last_line": 153,
+     "outputs": []
+    },
+    {
+     "block": 251,
+     "section": "Extended nonnegative reals",
+     "page": 110,
+     "page_fr": 114,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 156,
+     "last_line": 161,
+     "outputs": []
+    },
+    {
+     "block": 252,
+     "section": "Extended nonnegative reals",
+     "page": 110,
+     "page_fr": 114,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 164,
+     "last_line": 166,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch14_2.lean",
+   "chapter": "Chapter 14: Numbers, Casts and Their Traps",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 253,
+     "section": "Exercises",
+     "page": 111,
+     "page_fr": 115,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 39,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch14_3.lean",
+   "chapter": "Chapter 14: Numbers, Casts and Their Traps",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 254,
+     "section": "Solutions",
+     "page": 112,
+     "page_fr": 116,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 49,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch15_1.lean",
+   "chapter": "Chapter 15: Sets, Functions, Finsets and Sums",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 255,
+     "section": "Sets are predicates",
+     "page": 113,
+     "page_fr": 118,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 10,
+     "outputs": [
+      {
+       "line": 6,
+       "text": "{x | 0 < x} : Set ℝ"
+      },
+      {
+       "line": 7,
+       "text": "univ : Set ℝ"
+      },
+      {
+       "line": 8,
+       "text": "∅ : Set ℝ"
+      },
+      {
+       "line": 9,
+       "text": "{1, 2, 3} : Set ℕ"
+      },
+      {
+       "line": 10,
+       "text": "Icc 0 1 : Set ℝ"
+      }
+     ]
+    },
+    {
+     "block": 256,
+     "section": "Membership unfolds to the predicate",
+     "page": 113,
+     "page_fr": 118,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 13,
+     "last_line": 18,
+     "outputs": []
+    },
+    {
+     "block": 257,
+     "section": "Membership unfolds to the predicate",
+     "page": 114,
+     "page_fr": 119,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 21,
+     "last_line": 23,
+     "outputs": []
+    },
+    {
+     "block": 258,
+     "section": "Membership unfolds to the predicate",
+     "page": 114,
+     "page_fr": 119,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 26,
+     "last_line": 32,
+     "outputs": []
+    },
+    {
+     "block": 259,
+     "section": "The operations are the connectives",
+     "page": 114,
+     "page_fr": 119,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 35,
+     "last_line": 44,
+     "outputs": []
+    },
+    {
+     "block": 260,
+     "section": "Equality of sets: ext",
+     "page": 115,
+     "page_fr": 120,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 47,
+     "last_line": 54,
+     "outputs": []
+    },
+    {
+     "block": 261,
+     "section": "Equality of sets: ext",
+     "page": 115,
+     "page_fr": 120,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 57,
+     "last_line": 61,
+     "outputs": []
+    },
+    {
+     "block": 262,
+     "section": "Images and preimages",
+     "page": 115,
+     "page_fr": 120,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 64,
+     "last_line": 74,
+     "outputs": []
+    },
+    {
+     "block": 263,
+     "section": "Images and preimages",
+     "page": 115,
+     "page_fr": 121,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 77,
+     "last_line": 80,
+     "outputs": []
+    },
+    {
+     "block": 264,
+     "section": "Unions and intersections of families",
+     "page": 116,
+     "page_fr": 121,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 83,
+     "last_line": 84,
+     "outputs": []
+    },
+    {
+     "block": 265,
+     "section": "Unions and intersections of families",
+     "page": 116,
+     "page_fr": 121,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 87,
+     "last_line": 96,
+     "outputs": []
+    },
+    {
+     "block": 266,
+     "section": "Functions",
+     "page": 116,
+     "page_fr": 121,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 99,
+     "last_line": 115,
+     "outputs": [
+      {
+       "line": 101,
+       "text": "∀ ⦃a₁ a₂ : α⦄, f a₁ = f a₂ → a₁ = a₂"
+      },
+      {
+       "line": 102,
+       "text": "∀ (b : β), ∃ a, f a = b"
+      }
+     ]
+    },
+    {
+     "block": 267,
+     "section": "Functions",
+     "page": 116,
+     "page_fr": 122,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 118,
+     "last_line": 122,
+     "outputs": []
+    },
+    {
+     "block": 268,
+     "section": "Functions",
+     "page": 117,
+     "page_fr": 122,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 125,
+     "last_line": 128,
+     "outputs": []
+    },
+    {
+     "block": 269,
+     "section": "Finite sets and sums",
+     "page": 117,
+     "page_fr": 122,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 131,
+     "last_line": 137,
+     "outputs": [
+      {
+       "line": 133,
+       "text": "{0, 1, 2, 3, 4}"
+      },
+      {
+       "line": 134,
+       "text": "{1, 2, 3, 4}"
+      },
+      {
+       "line": 135,
+       "text": "{0, 3, 6, 9}"
+      },
+      {
+       "line": 136,
+       "text": "30"
+      },
+      {
+       "line": 137,
+       "text": "120"
+      }
+     ]
+    },
+    {
+     "block": 270,
+     "section": "Proving a sum formula",
+     "page": 117,
+     "page_fr": 122,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 140,
+     "last_line": 141,
+     "outputs": [
+      {
+       "line": 140,
+       "text": "∑ x ∈ Finset.range (n + 1), f x = ∑ x ∈ Finset.range n, f x + f n"
+      }
+     ]
+    },
+    {
+     "block": 271,
+     "section": "Proving a sum formula",
+     "page": 117,
+     "page_fr": 123,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 144,
+     "last_line": 151,
+     "outputs": []
+    },
+    {
+     "block": 272,
+     "section": "Proving a sum formula",
+     "page": 118,
+     "page_fr": 123,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 154,
+     "last_line": 159,
+     "outputs": []
+    },
+    {
+     "block": 273,
+     "section": "Proving a sum formula",
+     "page": 118,
+     "page_fr": 123,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 162,
+     "last_line": 172,
+     "outputs": []
+    },
+    {
+     "block": 274,
+     "section": "The algebra of sums",
+     "page": 119,
+     "page_fr": 124,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 175,
+     "last_line": 175,
+     "outputs": []
+    },
+    {
+     "block": 275,
+     "section": "Estimating a sum",
+     "page": 119,
+     "page_fr": 124,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 178,
+     "last_line": 185,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch15_2.lean",
+   "chapter": "Chapter 15: Sets, Functions, Finsets and Sums",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 276,
+     "section": "Exercises",
+     "page": 120,
+     "page_fr": 125,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 46,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch15_3.lean",
+   "chapter": "Chapter 15: Sets, Functions, Finsets and Sums",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 277,
+     "section": "Solutions",
+     "page": 120,
+     "page_fr": 126,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 77,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch16_1.lean",
+   "chapter": "Chapter 16: Algebraic Structures",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 278,
+     "section": "Working in an arbitrary group",
+     "page": 123,
+     "page_fr": 128,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 13,
+     "outputs": [
+      {
+       "line": 7,
+       "text": "a * b * c = a * (b * c)"
+      },
+      {
+       "line": 8,
+       "text": "1 * a = a"
+      },
+      {
+       "line": 9,
+       "text": "a * 1 = a"
+      },
+      {
+       "line": 10,
+       "text": "a⁻¹ * a = 1"
+      },
+      {
+       "line": 11,
+       "text": "a * a⁻¹ = 1"
+      },
+      {
+       "line": 12,
+       "text": "a⁻¹⁻¹ = a"
+      },
+      {
+       "line": 13,
+       "text": "(a * b)⁻¹ = b⁻¹ * a⁻¹"
+      }
+     ]
+    },
+    {
+     "block": 279,
+     "section": "Working in an arbitrary group",
+     "page": 123,
+     "page_fr": 128,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 16,
+     "last_line": 21,
+     "outputs": []
+    },
+    {
+     "block": 280,
+     "section": "Working in an arbitrary group",
+     "page": 123,
+     "page_fr": 128,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 24,
+     "last_line": 26,
+     "outputs": []
+    },
+    {
+     "block": 281,
+     "section": "Working in an arbitrary group",
+     "page": 123,
+     "page_fr": 128,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 29,
+     "last_line": 36,
+     "outputs": []
+    },
+    {
+     "block": 282,
+     "section": "Multiplicative and additive",
+     "page": 124,
+     "page_fr": 129,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 39,
+     "last_line": 39,
+     "outputs": []
+    },
+    {
+     "block": 283,
+     "section": "Rings, fields, modules",
+     "page": 124,
+     "page_fr": 129,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 42,
+     "last_line": 54,
+     "outputs": []
+    },
+    {
+     "block": 284,
+     "section": "Rings, fields, modules",
+     "page": 125,
+     "page_fr": 130,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 57,
+     "last_line": 63,
+     "outputs": [
+      {
+       "line": 57,
+       "text": "Int.instCommRing"
+      },
+      {
+       "line": 58,
+       "text": "Rat.instField"
+      },
+      {
+       "line": 59,
+       "text": "ZMod.commRing 6"
+      },
+      {
+       "line": 61,
+       "text": "1"
+      }
+     ]
+    },
+    {
+     "block": 285,
+     "section": "Homomorphisms are bundled",
+     "page": 125,
+     "page_fr": 130,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 66,
+     "last_line": 75,
+     "outputs": []
+    },
+    {
+     "block": 286,
+     "section": "Homomorphisms are bundled",
+     "page": 126,
+     "page_fr": 131,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 78,
+     "last_line": 84,
+     "outputs": []
+    },
+    {
+     "block": 287,
+     "section": "Homomorphisms are bundled",
+     "page": 126,
+     "page_fr": 131,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 87,
+     "last_line": 97,
+     "outputs": [
+      {
+       "line": 94,
+       "text": "42"
+      }
+     ]
+    },
+    {
+     "block": 288,
+     "section": "Subobjects",
+     "page": 126,
+     "page_fr": 131,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 100,
+     "last_line": 105,
+     "outputs": []
+    },
+    {
+     "block": 289,
+     "section": "Subobjects",
+     "page": 126,
+     "page_fr": 132,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 108,
+     "last_line": 109,
+     "outputs": []
+    },
+    {
+     "block": 290,
+     "section": "Subobjects",
+     "page": 126,
+     "page_fr": 132,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 112,
+     "last_line": 122,
+     "outputs": []
+    },
+    {
+     "block": 291,
+     "section": "Subobjects",
+     "page": 127,
+     "page_fr": 132,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 125,
+     "last_line": 142,
+     "outputs": []
+    },
+    {
+     "block": 292,
+     "section": "Subobjects",
+     "page": 127,
+     "page_fr": 132,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 145,
+     "last_line": 146,
+     "outputs": []
+    },
+    {
+     "block": 293,
+     "section": "Kernels, images, quotients",
+     "page": 127,
+     "page_fr": 132,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 149,
+     "last_line": 158,
+     "outputs": []
+    },
+    {
+     "block": 294,
+     "section": "Kernels, images, quotients",
+     "page": 128,
+     "page_fr": 133,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 161,
+     "last_line": 173,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch16_2.lean",
+   "chapter": "Chapter 16: Algebraic Structures",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 295,
+     "section": "Exercises",
+     "page": 129,
+     "page_fr": 134,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 32,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch16_3.lean",
+   "chapter": "Chapter 16: Algebraic Structures",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 296,
+     "section": "Solutions",
+     "page": 130,
+     "page_fr": 135,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 45,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch17_1.lean",
+   "chapter": "Chapter 17: Filters, Limits and Topology",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 297,
+     "section": "One definition for all limits",
+     "page": 131,
+     "page_fr": 137,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 6,
+     "outputs": [
+      {
+       "line": 6,
+       "text": "(α → β) → Filter α → Filter β → Prop"
+      }
+     ]
+    },
+    {
+     "block": 298,
+     "section": "What a filter is",
+     "page": 132,
+     "page_fr": 138,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 9,
+     "last_line": 10,
+     "outputs": [
+      {
+       "line": 9,
+       "text": "s ∈ atTop ↔ ∃ a, ∀ (b : α), a ≤ b → b ∈ s"
+      },
+      {
+       "line": 10,
+       "text": "s ∈ 𝓝 x ↔ ∃ ε > 0, Metric.ball x ε ⊆ s"
+      }
+     ]
+    },
+    {
+     "block": 299,
+     "section": "What a filter is",
+     "page": 132,
+     "page_fr": 138,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 13,
+     "last_line": 13,
+     "outputs": [
+      {
+       "line": 13,
+       "text": "Tendsto f l₁ l₂ ↔ ∀ s ∈ l₂, f ⁻¹' s ∈ l₁"
+      }
+     ]
+    },
+    {
+     "block": 300,
+     "section": "Getting the ε back",
+     "page": 132,
+     "page_fr": 138,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 16,
+     "last_line": 23,
+     "outputs": [
+      {
+       "line": 16,
+       "text": "Tendsto u atTop (𝓝 a) ↔ ∀ ε > 0, ∃ N, ∀ n ≥ N, dist (u n) a < ε"
+      },
+      {
+       "line": 19,
+       "text": "Tendsto f (𝓝 a) (𝓝 b) ↔ ∀ ε > 0, ∃ δ > 0, ∀ ⦃x : α⦄, dist x a < δ → dist (f x) b < ε"
+      },
+      {
+       "line": 23,
+       "text": "dist x y = |x - y|"
+      }
+     ]
+    },
+    {
+     "block": 301,
+     "section": "Getting the ε back",
+     "page": 132,
+     "page_fr": 138,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 26,
+     "last_line": 38,
+     "outputs": []
+    },
+    {
+     "block": 302,
+     "section": "Getting the ε back",
+     "page": 133,
+     "page_fr": 139,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 41,
+     "last_line": 42,
+     "outputs": []
+    },
+    {
+     "block": 303,
+     "section": "The algebra of limits",
+     "page": 133,
+     "page_fr": 139,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 45,
+     "last_line": 52,
+     "outputs": []
+    },
+    {
+     "block": 304,
+     "section": "The algebra of limits",
+     "page": 134,
+     "page_fr": 140,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 55,
+     "last_line": 59,
+     "outputs": []
+    },
+    {
+     "block": 305,
+     "section": "Eventually",
+     "page": 134,
+     "page_fr": 140,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 62,
+     "last_line": 65,
+     "outputs": []
+    },
+    {
+     "block": 306,
+     "section": "Eventually",
+     "page": 135,
+     "page_fr": 141,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 68,
+     "last_line": 72,
+     "outputs": []
+    },
+    {
+     "block": 307,
+     "section": "Eventually",
+     "page": 135,
+     "page_fr": 141,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 75,
+     "last_line": 78,
+     "outputs": []
+    },
+    {
+     "block": 308,
+     "section": "An ε proof, when you want one",
+     "page": 135,
+     "page_fr": 141,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 81,
+     "last_line": 98,
+     "outputs": []
+    },
+    {
+     "block": 309,
+     "section": "Continuity",
+     "page": 136,
+     "page_fr": 142,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 101,
+     "last_line": 106,
+     "outputs": []
+    },
+    {
+     "block": 310,
+     "section": "Continuity",
+     "page": 136,
+     "page_fr": 142,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 109,
+     "last_line": 110,
+     "outputs": []
+    },
+    {
+     "block": 311,
+     "section": "Continuity",
+     "page": 136,
+     "page_fr": 142,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 113,
+     "last_line": 123,
+     "outputs": []
+    },
+    {
+     "block": 312,
+     "section": "Open, closed, compact",
+     "page": 137,
+     "page_fr": 143,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 126,
+     "last_line": 130,
+     "outputs": []
+    },
+    {
+     "block": 313,
+     "section": "Open, closed, compact",
+     "page": 137,
+     "page_fr": 143,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 133,
+     "last_line": 140,
+     "outputs": []
+    },
+    {
+     "block": 314,
+     "section": "Open, closed, compact",
+     "page": 137,
+     "page_fr": 143,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 143,
+     "last_line": 153,
+     "outputs": []
+    },
+    {
+     "block": 315,
+     "section": "The big theorems of one-variable analysis",
+     "page": 138,
+     "page_fr": 144,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 156,
+     "last_line": 160,
+     "outputs": []
+    },
+    {
+     "block": 316,
+     "section": "The big theorems of one-variable analysis",
+     "page": 138,
+     "page_fr": 144,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 163,
+     "last_line": 173,
+     "outputs": [
+      {
+       "line": 163,
+       "text": "a ≤ b → ∀ {f : α → δ}, ContinuousOn f (Icc a b) → Icc (f a) (f b) ⊆ f '' Icc a b"
+      }
+     ]
+    },
+    {
+     "block": 317,
+     "section": "Metric and normed spaces",
+     "page": 138,
+     "page_fr": 144,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 176,
+     "last_line": 191,
+     "outputs": []
+    },
+    {
+     "block": 318,
+     "section": "Series",
+     "page": 139,
+     "page_fr": 145,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 194,
+     "last_line": 202,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch17_2.lean",
+   "chapter": "Chapter 17: Filters, Limits and Topology",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 319,
+     "section": "Exercises",
+     "page": 140,
+     "page_fr": 146,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 42,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch17_3.lean",
+   "chapter": "Chapter 17: Filters, Limits and Topology",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 320,
+     "section": "Solutions",
+     "page": 141,
+     "page_fr": 147,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 75,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch18_1.lean",
+   "chapter": "Chapter 18: Calculus",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 321,
+     "section": "Three ways to speak of a derivative",
+     "page": 143,
+     "page_fr": 149,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 12,
+     "outputs": []
+    },
+    {
+     "block": 322,
+     "section": "Computing a derivative",
+     "page": 144,
+     "page_fr": 150,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 15,
+     "last_line": 17,
+     "outputs": []
+    },
+    {
+     "block": 323,
+     "section": "Computing a derivative",
+     "page": 144,
+     "page_fr": 150,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 20,
+     "last_line": 23,
+     "outputs": []
+    },
+    {
+     "block": 324,
+     "section": "Computing a derivative",
+     "page": 145,
+     "page_fr": 151,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 26,
+     "last_line": 33,
+     "outputs": []
+    },
+    {
+     "block": 325,
+     "section": "Computing a derivative",
+     "page": 145,
+     "page_fr": 151,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 36,
+     "last_line": 43,
+     "outputs": []
+    },
+    {
+     "block": 326,
+     "section": "Statements with deriv",
+     "page": 145,
+     "page_fr": 151,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 46,
+     "last_line": 51,
+     "outputs": []
+    },
+    {
+     "block": 327,
+     "section": "Statements with deriv",
+     "page": 145,
+     "page_fr": 152,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 54,
+     "last_line": 63,
+     "outputs": [
+      {
+       "line": 57,
+       "text": "DifferentiableAt 𝕜 f x → DifferentiableAt 𝕜 g x → deriv (fun y ↦ f y + g y) x = deriv f x + deriv g x"
+      }
+     ]
+    },
+    {
+     "block": 328,
+     "section": "Differentiability",
+     "page": 146,
+     "page_fr": 152,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 66,
+     "last_line": 71,
+     "outputs": []
+    },
+    {
+     "block": 329,
+     "section": "The theorems",
+     "page": 146,
+     "page_fr": 153,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 74,
+     "last_line": 81,
+     "outputs": []
+    },
+    {
+     "block": 330,
+     "section": "Monotonicity from the sign of the derivative",
+     "page": 147,
+     "page_fr": 153,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 84,
+     "last_line": 93,
+     "outputs": []
+    },
+    {
+     "block": 331,
+     "section": "Monotonicity from the sign of the derivative",
+     "page": 147,
+     "page_fr": 153,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 96,
+     "last_line": 114,
+     "outputs": []
+    },
+    {
+     "block": 332,
+     "section": "Integrals over an interval",
+     "page": 147,
+     "page_fr": 154,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 117,
+     "last_line": 127,
+     "outputs": []
+    },
+    {
+     "block": 333,
+     "section": "Integrals over an interval",
+     "page": 149,
+     "page_fr": 155,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 130,
+     "last_line": 138,
+     "outputs": []
+    },
+    {
+     "block": 334,
+     "section": "The fundamental theorem of calculus",
+     "page": 149,
+     "page_fr": 156,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 141,
+     "last_line": 149,
+     "outputs": []
+    },
+    {
+     "block": 335,
+     "section": "The fundamental theorem of calculus",
+     "page": 149,
+     "page_fr": 156,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 152,
+     "last_line": 165,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch18_2.lean",
+   "chapter": "Chapter 18: Calculus",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 336,
+     "section": "Exercises",
+     "page": 150,
+     "page_fr": 157,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 41,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch18_3.lean",
+   "chapter": "Chapter 18: Calculus",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 337,
+     "section": "Solutions",
+     "page": 151,
+     "page_fr": 158,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 63,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch19_1.lean",
+   "chapter": "Chapter 19: Measure Theory and Integration",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 338,
+     "section": "The objects",
+     "page": 153,
+     "page_fr": 160,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 13,
+     "outputs": []
+    },
+    {
+     "block": 339,
+     "section": "Measurability",
+     "page": 154,
+     "page_fr": 161,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 16,
+     "last_line": 27,
+     "outputs": []
+    },
+    {
+     "block": 340,
+     "section": "Measures",
+     "page": 154,
+     "page_fr": 161,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 30,
+     "last_line": 42,
+     "outputs": []
+    },
+    {
+     "block": 341,
+     "section": "Measures",
+     "page": 154,
+     "page_fr": 161,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 45,
+     "last_line": 49,
+     "outputs": []
+    },
+    {
+     "block": 342,
+     "section": "Almost everywhere",
+     "page": 155,
+     "page_fr": 162,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 52,
+     "last_line": 52,
+     "outputs": []
+    },
+    {
+     "block": 343,
+     "section": "Almost everywhere",
+     "page": 155,
+     "page_fr": 162,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 55,
+     "last_line": 64,
+     "outputs": []
+    },
+    {
+     "block": 344,
+     "section": "Three integrals",
+     "page": 155,
+     "page_fr": 163,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 67,
+     "last_line": 68,
+     "outputs": []
+    },
+    {
+     "block": 345,
+     "section": "Proving integrability",
+     "page": 156,
+     "page_fr": 163,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 71,
+     "last_line": 88,
+     "outputs": []
+    },
+    {
+     "block": 346,
+     "section": "The rules of the integral",
+     "page": 157,
+     "page_fr": 164,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 91,
+     "last_line": 98,
+     "outputs": []
+    },
+    {
+     "block": 347,
+     "section": "The convergence theorems",
+     "page": 158,
+     "page_fr": 165,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 101,
+     "last_line": 107,
+     "outputs": [
+      {
+       "line": 101,
+       "text": "(bound : α → ℝ), (∀ (n : ℕ), AEStronglyMeasurable (F n) μ) → Integrable bound μ → (∀ (n : ℕ), ∀ᵐ (a : α) ∂μ, ‖F n a‖ ≤ bound a) → (∀ᵐ (a : α) ∂μ, Tendsto (fun n ↦ F n a) atTop (𝓝 (f a))) → Tendsto (fun n ↦ ∫ (a : α), F n a ∂μ) atTop (𝓝 (∫ (a : α), f a ∂μ))"
+      }
+     ]
+    },
+    {
+     "block": 348,
+     "section": "The convergence theorems",
+     "page": 158,
+     "page_fr": 165,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 110,
+     "last_line": 122,
+     "outputs": []
+    },
+    {
+     "block": 349,
+     "section": "The convergence theorems",
+     "page": 158,
+     "page_fr": 165,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 125,
+     "last_line": 132,
+     "outputs": []
+    },
+    {
+     "block": 350,
+     "section": "Lᵖ spaces",
+     "page": 159,
+     "page_fr": 166,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 135,
+     "last_line": 137,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch19_2.lean",
+   "chapter": "Chapter 19: Measure Theory and Integration",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 351,
+     "section": "Exercises",
+     "page": 160,
+     "page_fr": 168,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 41,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch19_3.lean",
+   "chapter": "Chapter 19: Measure Theory and Integration",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 352,
+     "section": "Solutions",
+     "page": 161,
+     "page_fr": 168,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 51,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch20_1.lean",
+   "chapter": "Chapter 20: A Worked Project in Analysis",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 353,
+     "section": "Step 1: the statement",
+     "page": 163,
+     "page_fr": 170,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 8,
+     "outputs": []
+    },
+    {
+     "block": 354,
+     "section": "Step 2: test the definition",
+     "page": 163,
+     "page_fr": 171,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 11,
+     "last_line": 28,
+     "outputs": []
+    },
+    {
+     "block": 355,
+     "section": "Step 3: the skeleton",
+     "page": 164,
+     "page_fr": 171,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 31,
+     "last_line": 44,
+     "outputs": []
+    },
+    {
+     "block": 357,
+     "section": "Step 4: isolate the algebra",
+     "page": 165,
+     "page_fr": 172,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 47,
+     "last_line": 50,
+     "outputs": []
+    },
+    {
+     "block": 358,
+     "section": "Step 5: fill the gaps",
+     "page": 165,
+     "page_fr": 172,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 53,
+     "last_line": 72,
+     "outputs": []
+    },
+    {
+     "block": 359,
+     "section": "Step 6: check the result",
+     "page": 166,
+     "page_fr": 173,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 75,
+     "last_line": 76,
+     "outputs": [
+      {
+       "line": 75,
+       "text": "'continuous_of_unifConv' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      }
+     ]
+    },
+    {
+     "block": 360,
+     "section": "Step 7: compare with Mathlib",
+     "page": 166,
+     "page_fr": 173,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 79,
+     "last_line": 81,
+     "outputs": []
+    },
+    {
+     "block": 361,
+     "section": "Step 7: compare with Mathlib",
+     "page": 166,
+     "page_fr": 173,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 84,
+     "last_line": 103,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch20_2.lean",
+   "chapter": "Chapter 20: A Worked Project in Analysis",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 362,
+     "section": "Exercises",
+     "page": 167,
+     "page_fr": 174,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 26,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch20_3.lean",
+   "chapter": "Chapter 20: A Worked Project in Analysis",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 363,
+     "section": "Solutions",
+     "page": 168,
+     "page_fr": 175,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 56,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch21_1.lean",
+   "chapter": "Chapter 21: Functional Programming and Effects",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 364,
+     "section": "Data you get for free",
+     "page": 170,
+     "page_fr": 177,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 15,
+     "outputs": [
+      {
+       "line": 2,
+       "text": "\"Lean 4\""
+      },
+      {
+       "line": 3,
+       "text": "\"2 + 2 = 4\""
+      },
+      {
+       "line": 4,
+       "text": "[\"a\", \"b\", \"c\"]"
+      },
+      {
+       "line": 5,
+       "text": "some 42"
+      },
+      {
+       "line": 7,
+       "text": "[1, 2, 3, 4]"
+      },
+      {
+       "line": 8,
+       "text": "[0, 1, 2]"
+      },
+      {
+       "line": 9,
+       "text": "#[1, 2, 3, 4]"
+      },
+      {
+       "line": 10,
+       "text": "20"
+      },
+      {
+       "line": 11,
+       "text": "none"
+      },
+      {
+       "line": 13,
+       "text": "3"
+      },
+      {
+       "line": 14,
+       "text": "1.414214"
+      },
+      {
+       "line": 15,
+       "text": "3.333333"
+      }
+     ]
+    },
+    {
+     "block": 365,
+     "section": "Bool and Prop",
+     "page": 171,
+     "page_fr": 178,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 18,
+     "last_line": 19,
+     "outputs": [
+      {
+       "line": 18,
+       "text": "5 == 5 : Bool"
+      },
+      {
+       "line": 19,
+       "text": "5 = 5 : Prop"
+      }
+     ]
+    },
+    {
+     "block": 366,
+     "section": "Lists, the functional way",
+     "page": 171,
+     "page_fr": 178,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 22,
+     "last_line": 28,
+     "outputs": [
+      {
+       "line": 22,
+       "text": "[0, 1, 2, 3, 4]"
+      },
+      {
+       "line": 23,
+       "text": "[0, 1, 4, 9, 16]"
+      },
+      {
+       "line": 24,
+       "text": "[0, 2, 4, 6, 8]"
+      },
+      {
+       "line": 25,
+       "text": "10"
+      },
+      {
+       "line": 26,
+       "text": "6"
+      },
+      {
+       "line": 27,
+       "text": "[(1, \"a\"), (2, \"b\"), (3, \"c\")]"
+      },
+      {
+       "line": 28,
+       "text": "[4, 6]"
+      }
+     ]
+    },
+    {
+     "block": 367,
+     "section": "Defining functions",
+     "page": 171,
+     "page_fr": 178,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 31,
+     "last_line": 55,
+     "outputs": [
+      {
+       "line": 35,
+       "text": "2432902008176640000"
+      },
+      {
+       "line": 47,
+       "text": "5.000000"
+      },
+      {
+       "line": 55,
+       "text": "2.500000"
+      }
+     ]
+    },
+    {
+     "block": 368,
+     "section": "Defining functions",
+     "page": 172,
+     "page_fr": 179,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 58,
+     "last_line": 68,
+     "outputs": [
+      {
+       "line": 67,
+       "text": "6.000000"
+      },
+      {
+       "line": 68,
+       "text": "Shape.circle 1.000000"
+      }
+     ]
+    },
+    {
+     "block": 369,
+     "section": "Values that may be missing",
+     "page": 172,
+     "page_fr": 179,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 71,
+     "last_line": 76,
+     "outputs": [
+      {
+       "line": 74,
+       "text": "some 5"
+      },
+      {
+       "line": 75,
+       "text": "none"
+      },
+      {
+       "line": 76,
+       "text": "0"
+      }
+     ]
+    },
+    {
+     "block": 370,
+     "section": "Values that may be missing",
+     "page": 172,
+     "page_fr": 179,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 79,
+     "last_line": 85,
+     "outputs": [
+      {
+       "line": 84,
+       "text": "some 6"
+      },
+      {
+       "line": 85,
+       "text": "none"
+      }
+     ]
+    },
+    {
+     "block": 371,
+     "section": "Values that may be missing",
+     "page": 172,
+     "page_fr": 179,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 88,
+     "last_line": 94,
+     "outputs": [
+      {
+       "line": 93,
+       "text": "Except.ok 42"
+      },
+      {
+       "line": 94,
+       "text": "Except.error \"not a number: abc\""
+      }
+     ]
+    },
+    {
+     "block": 372,
+     "section": "Loops and mutable variables",
+     "page": 173,
+     "page_fr": 180,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 97,
+     "last_line": 112,
+     "outputs": [
+      {
+       "line": 103,
+       "text": "5050"
+      },
+      {
+       "line": 112,
+       "text": "2880067194370816120"
+      }
+     ]
+    },
+    {
+     "block": 373,
+     "section": "Loops and mutable variables",
+     "page": 173,
+     "page_fr": 180,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 115,
+     "last_line": 128,
+     "outputs": [
+      {
+       "line": 127,
+       "text": "#[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]"
+      },
+      {
+       "line": 128,
+       "text": "9592"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch21_2.lean",
+   "chapter": "Chapter 21: Functional Programming and Effects",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 374,
+     "section": "Loops and mutable variables",
+     "page": 173,
+     "page_fr": 180,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 12,
+     "outputs": [
+      {
+       "line": 12,
+       "text": "some 3"
+      }
+     ]
+    },
+    {
+     "block": 375,
+     "section": "Recursion that Lean cannot check",
+     "page": 174,
+     "page_fr": 181,
+     "kind": "check",
+     "required": [
+      "failed to prove termination …"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 15,
+     "last_line": 19,
+     "outputs": []
+    },
+    {
+     "block": 376,
+     "section": "Recursion that Lean cannot check",
+     "page": 174,
+     "page_fr": 181,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 22,
+     "last_line": 29,
+     "outputs": [
+      {
+       "line": 29,
+       "text": "6"
+      }
+     ]
+    },
+    {
+     "block": 377,
+     "section": "Recursion that Lean cannot check",
+     "page": 174,
+     "page_fr": 181,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 32,
+     "last_line": 37,
+     "outputs": [
+      {
+       "line": 37,
+       "text": "111"
+      }
+     ]
+    },
+    {
+     "block": 378,
+     "section": "Input and output",
+     "page": 174,
+     "page_fr": 181,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 40,
+     "last_line": 48,
+     "outputs": [
+      {
+       "line": 43,
+       "text": "Hello, Lean!"
+      }
+     ]
+    },
+    {
+     "block": 379,
+     "section": "A complete program",
+     "page": 175,
+     "page_fr": 182,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 51,
+     "last_line": 62,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch21_3.lean",
+   "chapter": "Chapter 21: Functional Programming and Effects",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 382,
+     "section": "Exercises",
+     "page": 177,
+     "page_fr": 184,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 25,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch21_4.lean",
+   "chapter": "Chapter 21: Functional Programming and Effects",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 383,
+     "section": "Solutions",
+     "page": 177,
+     "page_fr": 185,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 43,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch22_1.lean",
+   "chapter": "Chapter 22: Verified Programs",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 384,
+     "section": "A function and its specification",
+     "page": 179,
+     "page_fr": 186,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 7,
+     "outputs": [
+      {
+       "line": 6,
+       "text": "5050"
+      }
+     ]
+    },
+    {
+     "block": 385,
+     "section": "A function and its specification",
+     "page": 179,
+     "page_fr": 186,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 10,
+     "last_line": 17,
+     "outputs": []
+    },
+    {
+     "block": 386,
+     "section": "Two implementations, one specification",
+     "page": 179,
+     "page_fr": 186,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 20,
+     "last_line": 24,
+     "outputs": []
+    },
+    {
+     "block": 387,
+     "section": "Two implementations, one specification",
+     "page": 179,
+     "page_fr": 186,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 27,
+     "last_line": 34,
+     "outputs": []
+    },
+    {
+     "block": 388,
+     "section": "Two implementations, one specification",
+     "page": 180,
+     "page_fr": 187,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 37,
+     "last_line": 48,
+     "outputs": []
+    },
+    {
+     "block": 389,
+     "section": "A sorting algorithm",
+     "page": 180,
+     "page_fr": 187,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 51,
+     "last_line": 60,
+     "outputs": [
+      {
+       "line": 59,
+       "text": "[1, 1, 2, 3, 4, 5, 6, 9]"
+      }
+     ]
+    },
+    {
+     "block": 390,
+     "section": "A sorting algorithm",
+     "page": 180,
+     "page_fr": 187,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 63,
+     "last_line": 66,
+     "outputs": []
+    },
+    {
+     "block": 391,
+     "section": "A sorting algorithm",
+     "page": 181,
+     "page_fr": 188,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 69,
+     "last_line": 92,
+     "outputs": []
+    },
+    {
+     "block": 392,
+     "section": "A sorting algorithm",
+     "page": 181,
+     "page_fr": 188,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 95,
+     "last_line": 107,
+     "outputs": []
+    },
+    {
+     "block": 393,
+     "section": "Let automation follow the program",
+     "page": 182,
+     "page_fr": 189,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 110,
+     "last_line": 112,
+     "outputs": []
+    },
+    {
+     "block": 394,
+     "section": "Let automation follow the program",
+     "page": 182,
+     "page_fr": 189,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 115,
+     "last_line": 131,
+     "outputs": []
+    },
+    {
+     "block": 395,
+     "section": "Specifications in the type",
+     "page": 182,
+     "page_fr": 189,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 134,
+     "last_line": 135,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch22_2.lean",
+   "chapter": "Chapter 22: Verified Programs",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 396,
+     "section": "Loops",
+     "page": 183,
+     "page_fr": 190,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 16,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch22_3.lean",
+   "chapter": "Chapter 22: Verified Programs",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 397,
+     "section": "Exercises",
+     "page": 183,
+     "page_fr": 190,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 41,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch22_4.lean",
+   "chapter": "Chapter 22: Verified Programs",
+   "plain": true,
+   "blocks": [
+    {
+     "block": 398,
+     "section": "Solutions",
+     "page": 184,
+     "page_fr": 191,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 2,
+     "last_line": 70,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch23_1.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 399,
+     "section": "Level 1: notation",
+     "page": 186,
+     "page_fr": 193,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 11,
+     "outputs": [
+      {
+       "line": 10,
+       "text": "(fun n ↦ 1 / (↑n + 1)) ⇝ 0 : Prop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch23_2.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 400,
+     "section": "Level 2: macros",
+     "page": 187,
+     "page_fr": 194,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 9,
+     "outputs": []
+    },
+    {
+     "block": 401,
+     "section": "Level 2: macros",
+     "page": 187,
+     "page_fr": 194,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 12,
+     "last_line": 14,
+     "outputs": []
+    },
+    {
+     "block": 402,
+     "section": "Hygiene",
+     "page": 187,
+     "page_fr": 194,
+     "kind": "check",
+     "required": [
+      "Unknown identifier `h`"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 17,
+     "last_line": 21,
+     "outputs": []
+    },
+    {
+     "block": 403,
+     "section": "Hygiene",
+     "page": 187,
+     "page_fr": 194,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 24,
+     "last_line": 28,
+     "outputs": []
+    },
+    {
+     "block": 404,
+     "section": "Level 3: syntax and macro_rules",
+     "page": 188,
+     "page_fr": 195,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 31,
+     "last_line": 42,
+     "outputs": []
+    },
+    {
+     "block": 405,
+     "section": "Level 3: syntax and macro_rules",
+     "page": 188,
+     "page_fr": 195,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 45,
+     "last_line": 55,
+     "outputs": []
+    },
+    {
+     "block": 406,
+     "section": "Level 3: syntax and macro_rules",
+     "page": 188,
+     "page_fr": 195,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 58,
+     "last_line": 64,
+     "outputs": [
+      {
+       "line": 64,
+       "text": "10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch23_3.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 407,
+     "section": "Level 4: elaborators",
+     "page": 189,
+     "page_fr": 196,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 11,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch23_4.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 408,
+     "section": "Expressions",
+     "page": 189,
+     "page_fr": 196,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 9,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch23_5.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 409,
+     "section": "Writing a tactic",
+     "page": 190,
+     "page_fr": 197,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 15,
+     "outputs": []
+    },
+    {
+     "block": 410,
+     "section": "Writing a tactic",
+     "page": 190,
+     "page_fr": 197,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 18,
+     "last_line": 34,
+     "outputs": []
+    },
+    {
+     "block": 411,
+     "section": "Writing a tactic",
+     "page": 191,
+     "page_fr": 198,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 37,
+     "last_line": 50,
+     "outputs": []
+    },
+    {
+     "block": 412,
+     "section": "Tactics are not trusted",
+     "page": 191,
+     "page_fr": 198,
+     "kind": "check",
+     "required": [
+      "(kernel) declaration type mismatch, '_example' has type"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 53,
+     "last_line": 61,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch23_6.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 413,
+     "section": "Commands",
+     "page": 191,
+     "page_fr": 198,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 13,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch23_7.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 414,
+     "section": "Exercises",
+     "page": 193,
+     "page_fr": 200,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 39,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch23_8.lean",
+   "chapter": "Chapter 23: Metaprogramming",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 415,
+     "section": "Solutions",
+     "page": 194,
+     "page_fr": 201,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 51,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch24_1.lean",
+   "chapter": "Chapter 24: Projects, Lake, and Keeping Up with Mathlib",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 418,
+     "section": "Files, modules and imports",
+     "page": 198,
+     "page_fr": 205,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 5,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch25_1.lean",
+   "chapter": "Chapter 25: Proof Engineering",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 425,
+     "section": "Sorry-driven development",
+     "page": 204,
+     "page_fr": 212,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 17,
+     "outputs": []
+    },
+    {
+     "block": 426,
+     "section": "Sorry-driven development",
+     "page": 205,
+     "page_fr": 213,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 20,
+     "last_line": 30,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch25_2.lean",
+   "chapter": "Chapter 25: Proof Engineering",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 425,
+     "section": "Sorry-driven development",
+     "page": 204,
+     "page_fr": 212,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": false,
+     "first_line": 1,
+     "last_line": 3,
+     "outputs": []
+    },
+    {
+     "block": 426,
+     "section": "Sorry-driven development",
+     "page": 205,
+     "page_fr": 213,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": false,
+     "first_line": 6,
+     "last_line": 16,
+     "outputs": []
+    },
+    {
+     "block": 427,
+     "section": "Sorry-driven development",
+     "page": 205,
+     "page_fr": 213,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 19,
+     "last_line": 37,
+     "outputs": []
+    },
+    {
+     "block": 428,
+     "section": "Turning a step into a lemma",
+     "page": 205,
+     "page_fr": 213,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 40,
+     "last_line": 44,
+     "outputs": []
+    },
+    {
+     "block": 429,
+     "section": "Turning a step into a lemma",
+     "page": 206,
+     "page_fr": 214,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 47,
+     "last_line": 48,
+     "outputs": []
+    },
+    {
+     "block": 430,
+     "section": "Finding the cause of a failure",
+     "page": 207,
+     "page_fr": 215,
+     "kind": "check",
+     "required": [
+      "Type mismatch"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 51,
+     "last_line": 58,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch25_3.lean",
+   "chapter": "Chapter 25: Proof Engineering",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 432,
+     "section": "Slow proofs",
+     "page": 207,
+     "page_fr": 216,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 14,
+     "outputs": []
+    },
+    {
+     "block": 433,
+     "section": "Slow proofs",
+     "page": 209,
+     "page_fr": 217,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 17,
+     "last_line": 19,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch25_4.lean",
+   "chapter": "Chapter 25: Proof Engineering",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 434,
+     "section": "The linters",
+     "page": 210,
+     "page_fr": 218,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": true,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 8,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch25_5.lean",
+   "chapter": "Chapter 25: Proof Engineering",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 435,
+     "section": "Exercises",
+     "page": 211,
+     "page_fr": 220,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 32,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch25_6.lean",
+   "chapter": "Chapter 25: Proof Engineering",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 436,
+     "section": "Solutions",
+     "page": 212,
+     "page_fr": 220,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 34,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch26_1.lean",
+   "chapter": "Chapter 26: Lean and AI Tools",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 439,
+     "section": "Checking a proof you did not write",
+     "page": 216,
+     "page_fr": 226,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 25,
+     "outputs": [
+      {
+       "line": 9,
+       "text": "'thmA' depends on axioms: [helper, propext, Classical.choice, Quot.sound]"
+      },
+      {
+       "line": 24,
+       "text": "'thmE' depends on axioms: [propext, thmE._native.native_decide.ax_1_1]"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ch26_2.lean",
+   "chapter": "Chapter 26: Lean and AI Tools",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 440,
+     "section": "Exercises",
+     "page": 218,
+     "page_fr": 228,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 23,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch26_3.lean",
+   "chapter": "Chapter 26: Lean and AI Tools",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 442,
+     "section": "Solutions",
+     "page": 219,
+     "page_fr": 228,
+     "kind": "check",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 22,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch27_1.lean",
+   "chapter": "Chapter 27: Community, Contributing, and Where to Go Next",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 443,
+     "section": "Asking a question that gets answered",
+     "page": 221,
+     "page_fr": 231,
+     "kind": "check",
+     "required": [
+      "unsolved goals"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 16,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch27_2.lean",
+   "chapter": "Chapter 27: Community, Contributing, and Where to Go Next",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 444,
+     "section": "Asking a question that gets answered",
+     "page": 221,
+     "page_fr": 231,
+     "kind": "check",
+     "required": [
+      "unsolved goals"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 8,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch27_3.lean",
+   "chapter": "Chapter 27: Community, Contributing, and Where to Go Next",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 446,
+     "section": "Exercises",
+     "page": 223,
+     "page_fr": 234,
+     "kind": "exercise",
+     "required": [],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 14,
+     "outputs": []
+    }
+   ]
+  },
+  {
+   "name": "Ch27_4.lean",
+   "chapter": "Chapter 27: Community, Contributing, and Where to Go Next",
+   "plain": false,
+   "blocks": [
+    {
+     "block": 447,
+     "section": "Solutions",
+     "page": 224,
+     "page_fr": 234,
+     "kind": "check",
+     "required": [
+      "unsolved goals"
+     ],
+     "allowed": [],
+     "lint": false,
+     "judge": true,
+     "first_line": 1,
+     "last_line": 15,
+     "outputs": []
+    }
+   ]
+  }
+ ],
+ "not_compiled": [
+  {
+   "block": 71,
+   "chapter": "Chapter 7: Tactics, the Core Toolkit",
+   "section": "Forward steps: have and specialize",
+   "page": 42,
+   "page_fr": 44,
+   "reason": "a piece of a proof, not a complete example",
+   "first": "have h0 : f 0 < f 1 := by"
+  },
+  {
+   "block": 195,
+   "chapter": "Chapter 12: Finding Things in Mathlib",
+   "section": "Loogle: search by shape",
+   "page": 88,
+   "page_fr": 91,
+   "reason": "needs the internet",
+   "first": "#loogle |- |_ + _| ≤ |_| + |_|"
+  },
+  {
+   "block": 196,
+   "chapter": "Chapter 12: Finding Things in Mathlib",
+   "section": "LeanSearch: search in words",
+   "page": 88,
+   "page_fr": 92,
+   "reason": "needs the internet",
+   "first": "#leansearch \"If a natural number n is less than m, then the successor of n is less than the successor of m.\""
+  },
+  {
+   "block": 419,
+   "chapter": "Chapter 24: Projects, Lake, and Keeping Up with Mathlib",
+   "section": "Files, modules and imports",
+   "page": 198,
+   "page_fr": 205,
+   "reason": "uses a sample project's own files",
+   "first": "-- MyProject/Analysis/Main.lean"
+  },
+  {
+   "block": 420,
+   "chapter": "Chapter 24: Projects, Lake, and Keeping Up with Mathlib",
+   "section": "Files, modules and imports",
+   "page": 198,
+   "page_fr": 205,
+   "reason": "uses a sample project's own files",
+   "first": "-- MyProject.lean, the root file"
+  }
+ ]
+}
