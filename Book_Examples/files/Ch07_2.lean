@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 91 · Chapter 7: Tactics, the Core Toolkit · Exercises · page 47 (French edition: page 50) · exercise: errors are normal until you solve it
+-- ▶ Block 91 · Chapter 7: Tactics, the Core Toolkit · Exercises · page 48 (French edition: page 50) · exercise: errors are normal until you solve it
 
 -- Exercise 1. intro, constructor, exact.
 example (p q r : Prop) (hpq : p → q) (hpr : p → r) : p → q ∧ r := by

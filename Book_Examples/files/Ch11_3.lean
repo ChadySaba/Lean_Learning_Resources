@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 186 · Chapter 11: Dependent Type Theory, One Level Deeper · Solutions · page 82 (French edition: page 85)
+-- ▶ Block 186 · Chapter 11: Dependent Type Theory, One Level Deeper · Solutions · page 82 (French edition: page 86)
 
 -- Exercise 1. The third line fails. Multiplication recurses on its second
 -- argument: n * 1 unfolds to n * 0 + n, then to 0 + n, which is stuck.

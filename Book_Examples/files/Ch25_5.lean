@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 435 · Chapter 25: Proof Engineering · Exercises · page 211 (French edition: page 220) · exercise: errors are normal until you solve it
+-- ▶ Block 435 · Chapter 25: Proof Engineering · Exercises · page 211 (French edition: page 221) · exercise: errors are normal until you solve it
 
 -- Exercise 1. Fill the three holes of this skeleton.
 def TendsToZero (u : ℕ → ℝ) : Prop := ∀ ε > 0, ∃ N, ∀ n ≥ N, |u n| < ε

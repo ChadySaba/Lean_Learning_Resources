@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 436 · Chapter 25: Proof Engineering · Solutions · page 212 (French edition: page 220)
+-- ▶ Block 436 · Chapter 25: Proof Engineering · Solutions · page 212 (French edition: page 221)
 
 -- Exercise 1.
 def TendsToZero (u : ℕ → ℝ) : Prop := ∀ ε > 0, ∃ N, ∀ n ≥ N, |u n| < ε

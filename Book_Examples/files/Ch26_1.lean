@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 439 · Chapter 26: Lean and AI Tools · Checking a proof you did not write · page 216 (French edition: page 226)
+-- ▶ Block 439 · Chapter 26: Lean and AI Tools · Checking a proof you did not write · page 216 (French edition: page 227)
 open Filter Topology
 
 -- "The square of a real number is positive."

@@ -1,5 +1,5 @@
 import Lean
--- ▶ Block 408 · Chapter 23: Metaprogramming · Expressions · page 189 (French edition: page 196)
+-- ▶ Block 408 · Chapter 23: Metaprogramming · Expressions · page 189 (French edition: page 197)
 open Lean Meta
 
 #eval show MetaM Unit from do

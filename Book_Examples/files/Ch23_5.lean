@@ -1,5 +1,5 @@
 import Lean
--- ▶ Block 409 · Chapter 23: Metaprogramming · Writing a tactic · page 190 (French edition: page 197)
+-- ▶ Block 409 · Chapter 23: Metaprogramming · Writing a tactic · page 190 (French edition: page 198)
 open Lean Elab Tactic Meta
 
 elab "my_assumption" : tactic => withMainContext do
@@ -14,7 +14,7 @@ elab "my_assumption" : tactic => withMainContext do
 
 example (p q : Prop) (hp : p) (hq : q) : q := by my_assumption
 
--- ▶ Block 410 · Chapter 23: Metaprogramming · Writing a tactic · page 190 (French edition: page 197)
+-- ▶ Block 410 · Chapter 23: Metaprogramming · Writing a tactic · page 190 (French edition: page 198)
 elab "apply_any" : tactic => withMainContext do
   let goal ← getMainGoal
   for d in ← getLCtx do
@@ -33,7 +33,7 @@ example (p q r : Prop) (hpq : p → q) (hqr : q → r) (hp : p) : r := by
   -- ⊢ p
   apply_any
 
--- ▶ Block 411 · Chapter 23: Metaprogramming · Writing a tactic · page 191 (French edition: page 198)
+-- ▶ Block 411 · Chapter 23: Metaprogramming · Writing a tactic · page 191 (French edition: page 199)
 elab "sides" : tactic => withMainContext do
   let t ← getMainTarget
   match t.eq? with
@@ -49,7 +49,7 @@ elab "finish" : tactic => do
 
 example (a : Nat) (h : 0 < a) : a ≠ 0 := by finish
 
--- ▶ Block 412 · Chapter 23: Metaprogramming · Tactics are not trusted · page 191 (French edition: page 198) · the book shows an error here
+-- ▶ Block 412 · Chapter 23: Metaprogramming · Tactics are not trusted · page 191 (French edition: page 199) · the book shows an error here
 elab "wrong_assign" : tactic => do
   let goal ← getMainGoal
   goal.assign (mkNatLit 3)         -- claims that 3 is a proof

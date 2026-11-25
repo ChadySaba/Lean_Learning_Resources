@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 320 · Chapter 17: Filters, Limits and Topology · Solutions · page 141 (French edition: page 147)
+-- ▶ Block 320 · Chapter 17: Filters, Limits and Topology · Solutions · page 141 (French edition: page 148)
 
 open Filter Topology Set
 

@@ -23,15 +23,15 @@ OK    Ch08_2.lean: 1 blocks as in the book
 OK    Ch08_3.lean: 1 blocks as in the book
 OK    Ch09_1.lean: 17 blocks as in the book
 OK    Ch09_2.lean: 1 blocks as in the book
-NOTE  Ch09_2.lean, block 133 (page 63, French page 65, Exercises, lines 1-53): 1 error(s) until the exercise is solved, first: Type mismatch
+NOTE  Ch09_2.lean, block 133 (page 63, French page 66, Exercises, lines 1-53): 1 error(s) until the exercise is solved, first: Type mismatch
 OK    Ch09_3.lean: 1 blocks as in the book
 OK    Ch10_1.lean: 22 blocks as in the book
 OK    Ch10_2.lean: 1 blocks as in the book
-NOTE  Ch10_2.lean, block 158 (page 71, French page 73, Exercises, lines 1-59): 1 error(s) until the exercise is solved, first: Type mismatch
+NOTE  Ch10_2.lean, block 158 (page 71, French page 74, Exercises, lines 1-59): 1 error(s) until the exercise is solved, first: Type mismatch
 OK    Ch10_3.lean: 1 blocks as in the book
 OK    Ch11_1.lean: 22 blocks as in the book
 OK    Ch11_2.lean: 1 blocks as in the book
-NOTE  Ch11_2.lean, block 185 (page 81, French page 84, Exercises, lines 1-48): 1 error(s) until the exercise is solved, first: Type mismatch
+NOTE  Ch11_2.lean, block 185 (page 81, French page 85, Exercises, lines 1-48): 1 error(s) until the exercise is solved, first: Type mismatch
 OK    Ch11_3.lean: 1 blocks as in the book
 OK    Ch12_1.lean: 10 blocks as in the book
 OK    Ch12_2.lean: 1 blocks as in the book
@@ -82,7 +82,7 @@ OK    Ch25_2.lean: 4 blocks as in the book
 OK    Ch25_3.lean: 2 blocks as in the book
 OK    Ch25_4.lean: 1 blocks as in the book
 OK    Ch25_5.lean: 1 blocks as in the book
-NOTE  Ch25_5.lean, block 435 (page 211, French page 220, Exercises, lines 1-32): 1 error(s) until the exercise is solved, first: Type mismatch
+NOTE  Ch25_5.lean, block 435 (page 211, French page 221, Exercises, lines 1-32): 1 error(s) until the exercise is solved, first: Type mismatch
 OK    Ch25_6.lean: 1 blocks as in the book
 OK    Ch26_1.lean: 1 blocks as in the book
 OK    Ch26_2.lean: 1 blocks as in the book
@@ -90,15 +90,15 @@ OK    Ch26_3.lean: 1 blocks as in the book
 OK    Ch27_1.lean: 1 blocks as in the book
 OK    Ch27_2.lean: 1 blocks as in the book
 OK    Ch27_3.lean: 1 blocks as in the book
-NOTE  Ch27_3.lean, block 446 (page 223, French page 234, Exercises, lines 1-14): 1 error(s) until the exercise is solved, first: unsolved goals
+NOTE  Ch27_3.lean, block 446 (page 223, French page 235, Exercises, lines 1-14): 1 error(s) until the exercise is solved, first: unsolved goals
 OK    Ch27_4.lean: 1 blocks as in the book
 
 Not compiled:
       page 42 (French page 44), Chapter 7: Tactics, the Core Toolkit: a piece of a proof, not a complete example
-      page 88 (French page 91), Chapter 12: Finding Things in Mathlib: needs the internet
       page 88 (French page 92), Chapter 12: Finding Things in Mathlib: needs the internet
-      page 198 (French page 205), Chapter 24: Projects, Lake, and Keeping Up with Mathlib: uses a sample project's own files
-      page 198 (French page 205), Chapter 24: Projects, Lake, and Keeping Up with Mathlib: uses a sample project's own files
+      page 88 (French page 93), Chapter 12: Finding Things in Mathlib: needs the internet
+      page 198 (French page 206), Chapter 24: Projects, Lake, and Keeping Up with Mathlib: uses a sample project's own files
+      page 198 (French page 206), Chapter 24: Projects, Lake, and Keeping Up with Mathlib: uses a sample project's own files
 
 RESULT: 400 of 400 blocks compile as the book shows. 238 of 238 results printed in comments match Lean's output. (2.7 minutes)
 
@@ -108,7 +108,7 @@ Each file was opened in a Lean language server, the one VS Code uses, and the st
 where the comment stands. 187 are what the Infoview shows. The other three show the goal
 that rw closes by itself, as the comment says:
       page 27 (French page 30): ⊢ b = b, closed automatically
-      page 52 (French page 54): ⊢ a = a, closed by rfl
-      page 52 (French page 54): ⊢ b * (a * c) = b * (a * c), closed by rfl
+      page 52 (French page 55): ⊢ a = a, closed by rfl
+      page 52 (French page 55): ⊢ b * (a * c) = b * (a * c), closed by rfl
 Boxes after a code block that show the Infoview, a "Try this" suggestion or a linter
 warning: 14, all as Lean shows them.

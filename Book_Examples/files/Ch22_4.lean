@@ -1,4 +1,4 @@
--- ▶ Block 398 · Chapter 22: Verified Programs · Solutions · page 184 (French edition: page 191)
+-- ▶ Block 398 · Chapter 22: Verified Programs · Solutions · page 184 (French edition: page 192)
 -- Exercise 1.
 def double : Nat → Nat
   | 0 => 0

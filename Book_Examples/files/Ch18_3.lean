@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 337 · Chapter 18: Calculus · Solutions · page 151 (French edition: page 158)
+-- ▶ Block 337 · Chapter 18: Calculus · Solutions · page 151 (French edition: page 159)
 
 open Real Set
 

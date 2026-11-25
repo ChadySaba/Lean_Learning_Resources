@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 443 · Chapter 27: Community, Contributing, and Where to Go Next · Asking a question that gets answered · page 221 (French edition: page 231) · the book shows an error here
+-- ▶ Block 443 · Chapter 27: Community, Contributing, and Where to Go Next · Asking a question that gets answered · page 221 (French edition: page 232) · the book shows an error here
 open Real Filter Topology
 
 noncomputable def myF (x : ℝ) : ℝ := x ^ 2 + 3 * x

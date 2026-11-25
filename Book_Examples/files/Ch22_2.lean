@@ -1,5 +1,5 @@
 import Std.Tactic.Do
--- ▶ Block 396 · Chapter 22: Verified Programs · Loops · page 183 (French edition: page 190)
+-- ▶ Block 396 · Chapter 22: Verified Programs · Loops · page 183 (French edition: page 191)
 open Std.Do
 
 def mySum (l : Array Nat) : Nat := Id.run do

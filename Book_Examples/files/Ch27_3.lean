@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 446 · Chapter 27: Community, Contributing, and Where to Go Next · Exercises · page 223 (French edition: page 234) · exercise: errors are normal until you solve it
+-- ▶ Block 446 · Chapter 27: Community, Contributing, and Where to Go Next · Exercises · page 223 (French edition: page 235) · exercise: errors are normal until you solve it
 open Real Filter Topology
 
 -- Exercise 1. Reduce this to a minimal working example, then repair it.

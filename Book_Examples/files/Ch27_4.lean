@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 447 · Chapter 27: Community, Contributing, and Where to Go Next · Solutions · page 224 (French edition: page 234) · the book shows an error here
+-- ▶ Block 447 · Chapter 27: Community, Contributing, and Where to Go Next · Solutions · page 224 (French edition: page 235) · the book shows an error here
 
 -- Exercise 1. The function g, the sequence v and the lemma g_pos are not
 -- needed to show the problem:

@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 351 · Chapter 19: Measure Theory and Integration · Exercises · page 160 (French edition: page 168) · exercise: errors are normal until you solve it
+-- ▶ Block 351 · Chapter 19: Measure Theory and Integration · Exercises · page 160 (French edition: page 169) · exercise: errors are normal until you solve it
 
 open MeasureTheory Set Filter Topology ENNReal
 

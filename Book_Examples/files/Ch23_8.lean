@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 415 · Chapter 23: Metaprogramming · Solutions · page 194 (French edition: page 201)
+-- ▶ Block 415 · Chapter 23: Metaprogramming · Solutions · page 194 (French edition: page 202)
 open Lean Elab Tactic Meta
 
 -- Exercise 1.

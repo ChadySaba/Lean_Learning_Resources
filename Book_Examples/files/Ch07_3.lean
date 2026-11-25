@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 92 · Chapter 7: Tactics, the Core Toolkit · Solutions · page 48 (French edition: page 51)
+-- ▶ Block 92 · Chapter 7: Tactics, the Core Toolkit · Solutions · page 49 (French edition: page 51)
 
 -- Exercise 1.
 example (p q r : Prop) (hpq : p → q) (hpr : p → r) : p → q ∧ r := by

@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 112 · Chapter 8: Equality, Rewriting and calc · Exercises · page 55 (French edition: page 57) · exercise: errors are normal until you solve it
+-- ▶ Block 112 · Chapter 8: Equality, Rewriting and calc · Exercises · page 55 (French edition: page 58) · exercise: errors are normal until you solve it
 
 -- Exercise 1. Two rewrites in one rw.
 example (a b c : ℝ) (h₁ : a = 2 * b) (h₂ : b = c + 1) : a = 2 * (c + 1) := by

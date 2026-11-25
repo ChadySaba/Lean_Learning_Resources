@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 319 · Chapter 17: Filters, Limits and Topology · Exercises · page 140 (French edition: page 146) · exercise: errors are normal until you solve it
+-- ▶ Block 319 · Chapter 17: Filters, Limits and Topology · Exercises · page 140 (French edition: page 147) · exercise: errors are normal until you solve it
 
 open Filter Topology Set
 

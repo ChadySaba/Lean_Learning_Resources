@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 276 · Chapter 15: Sets, Functions, Finsets and Sums · Exercises · page 120 (French edition: page 125) · exercise: errors are normal until you solve it
+-- ▶ Block 276 · Chapter 15: Sets, Functions, Finsets and Sums · Exercises · page 120 (French edition: page 126) · exercise: errors are normal until you solve it
 
 open Set Function
 

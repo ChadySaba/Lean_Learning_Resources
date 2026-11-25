@@ -1,4 +1,4 @@
--- ▶ Block 382 · Chapter 21: Functional Programming and Effects · Exercises · page 177 (French edition: page 184) · exercise: errors are normal until you solve it
+-- ▶ Block 382 · Chapter 21: Functional Programming and Effects · Exercises · page 177 (French edition: page 185) · exercise: errors are normal until you solve it
 -- Exercise 1. The sum 1² + 2² + … + n², once with a loop and once with map and sum.
 def sumSquares (n : Nat) : Nat := sorry
 

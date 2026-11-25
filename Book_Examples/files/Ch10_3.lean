@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 159 · Chapter 10: Structures and Type Classes · Solutions · page 72 (French edition: page 75)
+-- ▶ Block 159 · Chapter 10: Structures and Type Classes · Solutions · page 72 (French edition: page 76)
 
 -- Exercise 1.
 structure ClosedInterval where

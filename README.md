@@ -7,7 +7,7 @@
 
 A free book to learn Lean, from your first proof to formalized analysis, in English and French.
 
-**[Download the PDF](Book/LEAN4_From_First_Proof_to_Formalized_Mathematics.pdf)** (English, 287 pages) · **[Télécharger le PDF](Book/LEAN4_De_la_premiere_preuve_aux_mathematiques_formalisees.pdf)** (français, 304 pages)
+**[Download the PDF](Book/LEAN4_From_First_Proof_to_Formalized_Mathematics.pdf)** (English, 287 pages) · **[Télécharger le PDF](Book/LEAN4_De_la_premiere_preuve_aux_mathematiques_formalisees.pdf)** (français, 305 pages)
 
 ![Lean 4.35.0](https://img.shields.io/badge/Lean-4.35.0-0d9488)
 ![Mathlib v4.35.0](https://img.shields.io/badge/Mathlib-v4.35.0-0d9488)
@@ -144,7 +144,7 @@ Personal website: [csaba.perso.math.cnrs.fr](https://csaba.perso.math.cnrs.fr/)
 
 ## Version française
 
-**L∃∀N 4 : De la première preuve aux mathématiques formalisées** · [Télécharger le PDF](Book/LEAN4_De_la_premiere_preuve_aux_mathematiques_formalisees.pdf) · 304 pages
+**L∃∀N 4 : De la première preuve aux mathématiques formalisées** · [Télécharger le PDF](Book/LEAN4_De_la_premiere_preuve_aux_mathematiques_formalisees.pdf) · 305 pages
 
 Ce livre enseigne Lean 4, de l’installation jusqu’à l’analyse formalisée, avec des exemples tous écrits pour Lean 4.35.0 et la version de Mathlib qui lui correspond.
 

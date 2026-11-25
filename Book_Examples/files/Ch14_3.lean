@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 254 · Chapter 14: Numbers, Casts and Their Traps · Solutions · page 112 (French edition: page 116)
+-- ▶ Block 254 · Chapter 14: Numbers, Casts and Their Traps · Solutions · page 112 (French edition: page 117)
 
 -- Exercise 1. The first two are true. The third is false: 1 / 3 is 0 in ℕ.
 example : (7 / 2 : ℕ) = 3 := by

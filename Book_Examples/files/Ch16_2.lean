@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 295 · Chapter 16: Algebraic Structures · Exercises · page 129 (French edition: page 134) · exercise: errors are normal until you solve it
+-- ▶ Block 295 · Chapter 16: Algebraic Structures · Exercises · page 129 (French edition: page 135) · exercise: errors are normal until you solve it
 
 variable {G H : Type*} [Group G] [Group H]
 

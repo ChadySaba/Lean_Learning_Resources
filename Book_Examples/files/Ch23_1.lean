@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 399 · Chapter 23: Metaprogramming · Level 1: notation · page 186 (French edition: page 193)
+-- ▶ Block 399 · Chapter 23: Metaprogramming · Level 1: notation · page 186 (French edition: page 194)
 open Filter Topology
 
 notation:50 f " ⇝ " l => Tendsto f atTop (𝓝 l)

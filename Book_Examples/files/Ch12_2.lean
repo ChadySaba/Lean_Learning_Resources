@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 199 · Chapter 12: Finding Things in Mathlib · Exercises · page 90 (French edition: page 93) · exercise: errors are normal until you solve it
+-- ▶ Block 199 · Chapter 12: Finding Things in Mathlib · Exercises · page 90 (French edition: page 94) · exercise: errors are normal until you solve it
 
 -- Exercises 1 to 7. Each is closed by one lemma. First guess its name from the
 -- convention. Then check your guess with exact?.

@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 336 · Chapter 18: Calculus · Exercises · page 150 (French edition: page 157) · exercise: errors are normal until you solve it
+-- ▶ Block 336 · Chapter 18: Calculus · Exercises · page 150 (French edition: page 158) · exercise: errors are normal until you solve it
 
 open Real Set
 

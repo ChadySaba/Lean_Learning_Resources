@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 414 · Chapter 23: Metaprogramming · Exercises · page 193 (French edition: page 200) · exercise: errors are normal until you solve it
+-- ▶ Block 414 · Chapter 23: Metaprogramming · Exercises · page 193 (French edition: page 201) · exercise: errors are normal until you solve it
 open Lean Elab Tactic Meta
 
 -- Exercise 1. Declare a notation  a ≈[ε] b  for  near ε a b,

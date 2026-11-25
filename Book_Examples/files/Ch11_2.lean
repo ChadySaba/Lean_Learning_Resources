@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 185 · Chapter 11: Dependent Type Theory, One Level Deeper · Exercises · page 81 (French edition: page 84) · exercise: errors are normal until you solve it
+-- ▶ Block 185 · Chapter 11: Dependent Type Theory, One Level Deeper · Exercises · page 81 (French edition: page 85) · exercise: errors are normal until you solve it
 
 -- Exercise 1. Predict which of these five lines are accepted. Then check.
 example (n : ℕ) : n + 0 = n := rfl

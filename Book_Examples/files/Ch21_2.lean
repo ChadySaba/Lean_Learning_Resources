@@ -1,5 +1,5 @@
 import Std.Data.HashMap
--- ▶ Block 374 · Chapter 21: Functional Programming and Effects · Loops and mutable variables · page 173 (French edition: page 180)
+-- ▶ Block 374 · Chapter 21: Functional Programming and Effects · Loops and mutable variables · page 173 (French edition: page 181)
 open Std
 
 def wordCount (text : String) : HashMap String Nat := Id.run do
@@ -11,14 +11,14 @@ def wordCount (text : String) : HashMap String Nat := Id.run do
 
 #eval (wordCount "the cat and the hat and the bat")["the"]?     -- some 3
 
--- ▶ Block 375 · Chapter 21: Functional Programming and Effects · Recursion that Lean cannot check · page 174 (French edition: page 181) · the book shows an error here
+-- ▶ Block 375 · Chapter 21: Functional Programming and Effects · Recursion that Lean cannot check · page 174 (French edition: page 182) · the book shows an error here
 def bad (n : Nat) : Nat :=
   if n = 0 then 0 else bad (n / 2 + 1)
 -- error: failed to prove termination …
 --   h✝ : ¬n = 0
 --   ⊢ n / 2 + 1 < n
 
--- ▶ Block 376 · Chapter 21: Functional Programming and Effects · Recursion that Lean cannot check · page 174 (French edition: page 181)
+-- ▶ Block 376 · Chapter 21: Functional Programming and Effects · Recursion that Lean cannot check · page 174 (French edition: page 182)
 def gcd1 (a b : Nat) : Nat :=
   if b = 0 then a else gcd1 b (a % b)
 termination_by b
@@ -28,7 +28,7 @@ decreasing_by
 
 #eval gcd1 48 18                 -- 6
 
--- ▶ Block 377 · Chapter 21: Functional Programming and Effects · Recursion that Lean cannot check · page 174 (French edition: page 181)
+-- ▶ Block 377 · Chapter 21: Functional Programming and Effects · Recursion that Lean cannot check · page 174 (French edition: page 182)
 partial def collatzSteps (n : Nat) (steps : Nat := 0) : Nat :=
   if n ≤ 1 then steps
   else if n % 2 == 0 then collatzSteps (n / 2) (steps + 1)
@@ -36,7 +36,7 @@ partial def collatzSteps (n : Nat) (steps : Nat := 0) : Nat :=
 
 #eval collatzSteps 27            -- 111
 
--- ▶ Block 378 · Chapter 21: Functional Programming and Effects · Input and output · page 174 (French edition: page 181)
+-- ▶ Block 378 · Chapter 21: Functional Programming and Effects · Input and output · page 174 (French edition: page 182)
 def greet (name : String) : IO Unit := do
   IO.println s!"Hello, {name}!"
 
@@ -47,7 +47,7 @@ def countdown : IO Unit := do
     IO.println s!"{3 - i}..."
   IO.println "Go!"
 
--- ▶ Block 379 · Chapter 21: Functional Programming and Effects · A complete program · page 175 (French edition: page 182)
+-- ▶ Block 379 · Chapter 21: Functional Programming and Effects · A complete program · page 175 (French edition: page 183)
 def main (args : List String) : IO UInt32 := do
   match args with
   | [] =>

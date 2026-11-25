@@ -1,5 +1,5 @@
 import Lean
--- ▶ Block 407 · Chapter 23: Metaprogramming · Level 4: elaborators · page 189 (French edition: page 196)
+-- ▶ Block 407 · Chapter 23: Metaprogramming · Level 4: elaborators · page 189 (French edition: page 197)
 open Lean Elab Tactic Meta
 
 elab "show_goal" : tactic => do

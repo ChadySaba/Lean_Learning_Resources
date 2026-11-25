@@ -1,4 +1,4 @@
--- ▶ Block 383 · Chapter 21: Functional Programming and Effects · Solutions · page 177 (French edition: page 185)
+-- ▶ Block 383 · Chapter 21: Functional Programming and Effects · Solutions · page 177 (French edition: page 186)
 -- Exercise 1.
 def sumSquares (n : Nat) : Nat := Id.run do
   let mut s := 0

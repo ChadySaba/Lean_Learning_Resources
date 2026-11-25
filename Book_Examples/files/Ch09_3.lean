@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 134 · Chapter 9: Inductive Types, Recursion and Induction · Solutions · page 63 (French edition: page 66)
+-- ▶ Block 134 · Chapter 9: Inductive Types, Recursion and Induction · Solutions · page 63 (French edition: page 67)
 
 -- Exercise 1.
 def len {α : Type} : List α → ℕ

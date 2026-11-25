@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 362 · Chapter 20: A Worked Project in Analysis · Exercises · page 167 (French edition: page 174) · exercise: errors are normal until you solve it
+-- ▶ Block 362 · Chapter 20: A Worked Project in Analysis · Exercises · page 167 (French edition: page 175) · exercise: errors are normal until you solve it
 
 open Filter Topology
 

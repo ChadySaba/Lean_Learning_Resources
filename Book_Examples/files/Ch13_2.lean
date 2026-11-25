@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 227 · Chapter 13: Automation · Exercises · page 101 (French edition: page 106) · exercise: errors are normal until you solve it
+-- ▶ Block 227 · Chapter 13: Automation · Exercises · page 101 (French edition: page 107) · exercise: errors are normal until you solve it
 
 -- Each goal is closed by one tactic from this chapter, sometimes with a fact in
 -- brackets or one preparatory step. Choose the tactic before you type it.

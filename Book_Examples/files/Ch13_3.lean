@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 228 · Chapter 13: Automation · Solutions · page 102 (French edition: page 107)
+-- ▶ Block 228 · Chapter 13: Automation · Solutions · page 102 (French edition: page 108)
 
 example (a b : ℝ) : (a + b) ^ 3 = a ^ 3 + 3 * a ^ 2 * b + 3 * a * b ^ 2 + b ^ 3 := by
   ring

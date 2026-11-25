@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 113 · Chapter 8: Equality, Rewriting and calc · Solutions · page 56 (French edition: page 58)
+-- ▶ Block 113 · Chapter 8: Equality, Rewriting and calc · Solutions · page 56 (French edition: page 59)
 
 -- Exercise 1.
 example (a b c : ℝ) (h₁ : a = 2 * b) (h₂ : b = c + 1) : a = 2 * (c + 1) := by

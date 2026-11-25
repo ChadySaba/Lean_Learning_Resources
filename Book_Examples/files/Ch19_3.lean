@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 352 · Chapter 19: Measure Theory and Integration · Solutions · page 161 (French edition: page 168)
+-- ▶ Block 352 · Chapter 19: Measure Theory and Integration · Solutions · page 161 (French edition: page 169)
 
 open MeasureTheory Set Filter Topology ENNReal
 

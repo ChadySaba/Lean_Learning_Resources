@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 200 · Chapter 12: Finding Things in Mathlib · Solutions · page 91 (French edition: page 94)
+-- ▶ Block 200 · Chapter 12: Finding Things in Mathlib · Solutions · page 91 (French edition: page 95)
 
 example (a b : ℝ) : |a * b| = |a| * |b| := abs_mul a b
 

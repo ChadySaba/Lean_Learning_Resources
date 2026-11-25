@@ -1,5 +1,5 @@
 import Lean
--- ▶ Block 413 · Chapter 23: Metaprogramming · Commands · page 191 (French edition: page 198)
+-- ▶ Block 413 · Chapter 23: Metaprogramming · Commands · page 191 (French edition: page 199)
 open Lean Elab Meta
 
 elab "#type_of " t:term : command => do

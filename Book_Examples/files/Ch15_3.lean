@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 277 · Chapter 15: Sets, Functions, Finsets and Sums · Solutions · page 120 (French edition: page 126)
+-- ▶ Block 277 · Chapter 15: Sets, Functions, Finsets and Sums · Solutions · page 120 (French edition: page 127)
 
 open Set Function
 

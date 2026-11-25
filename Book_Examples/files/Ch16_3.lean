@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 296 · Chapter 16: Algebraic Structures · Solutions · page 130 (French edition: page 135)
+-- ▶ Block 296 · Chapter 16: Algebraic Structures · Solutions · page 130 (French edition: page 136)
 
 variable {G H : Type*} [Group G] [Group H]
 

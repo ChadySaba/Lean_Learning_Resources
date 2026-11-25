@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 353 · Chapter 20: A Worked Project in Analysis · Step 1: the statement · page 163 (French edition: page 170)
+-- ▶ Block 353 · Chapter 20: A Worked Project in Analysis · Step 1: the statement · page 163 (French edition: page 171)
 
 open Filter Topology
 
@@ -7,7 +7,7 @@ open Filter Topology
 def UnifConv (F : ℕ → ℝ → ℝ) (f : ℝ → ℝ) : Prop :=
   ∀ ε > 0, ∃ N, ∀ n ≥ N, ∀ x, |F n x - f x| < ε
 
--- ▶ Block 354 · Chapter 20: A Worked Project in Analysis · Step 2: test the definition · page 163 (French edition: page 171)
+-- ▶ Block 354 · Chapter 20: A Worked Project in Analysis · Step 2: test the definition · page 163 (French edition: page 172)
 -- A constant sequence converges uniformly to its value.
 example (f : ℝ → ℝ) : UnifConv (fun _ ↦ f) f := by
   intro ε hε
@@ -27,7 +27,7 @@ example : UnifConv (fun n x ↦ x + 1 / (n + 1 : ℝ)) (fun x ↦ x) := by
   rw [h3, abs_of_pos h1]
   linarith
 
--- ▶ Block 355 · Chapter 20: A Worked Project in Analysis · Step 3: the skeleton · page 164 (French edition: page 171)
+-- ▶ Block 355 · Chapter 20: A Worked Project in Analysis · Step 3: the skeleton · page 164 (French edition: page 172)
 theorem continuous_of_unifConv_skeleton (F : ℕ → ℝ → ℝ) (f : ℝ → ℝ)
     (hF : ∀ n, Continuous (F n)) (hunif : UnifConv F f) : Continuous f := by
   rw [Metric.continuous_iff]
@@ -43,13 +43,13 @@ theorem continuous_of_unifConv_skeleton (F : ℕ → ℝ → ℝ) (f : ℝ → �
   have h3 : |F N a - f a| < ε / 3 := sorry
   sorry
 
--- ▶ Block 357 · Chapter 20: A Worked Project in Analysis · Step 4: isolate the algebra · page 165 (French edition: page 172)
+-- ▶ Block 357 · Chapter 20: A Worked Project in Analysis · Step 4: isolate the algebra · page 165 (French edition: page 173)
 theorem abs_sub_three (a b c d : ℝ) : |a - d| ≤ |a - b| + |b - c| + |c - d| := by
   calc |a - d| = |(a - b) + (b - c) + (c - d)| := by ring_nf
     _ ≤ |(a - b) + (b - c)| + |c - d| := abs_add_le _ _
     _ ≤ |a - b| + |b - c| + |c - d| := by gcongr; exact abs_add_le _ _
 
--- ▶ Block 358 · Chapter 20: A Worked Project in Analysis · Step 5: fill the gaps · page 165 (French edition: page 172)
+-- ▶ Block 358 · Chapter 20: A Worked Project in Analysis · Step 5: fill the gaps · page 165 (French edition: page 173)
 theorem continuous_of_unifConv (F : ℕ → ℝ → ℝ) (f : ℝ → ℝ)
     (hF : ∀ n, Continuous (F n)) (hunif : UnifConv F f) : Continuous f := by
   rw [Metric.continuous_iff]
@@ -71,16 +71,16 @@ theorem continuous_of_unifConv (F : ℕ → ℝ → ℝ) (f : ℝ → ℝ)
     _ < ε / 3 + ε / 3 + ε / 3 := by gcongr
     _ = ε := by ring
 
--- ▶ Block 359 · Chapter 20: A Worked Project in Analysis · Step 6: check the result · page 166 (French edition: page 173)
+-- ▶ Block 359 · Chapter 20: A Worked Project in Analysis · Step 6: check the result · page 166 (French edition: page 174)
 #print axioms continuous_of_unifConv
 -- 'continuous_of_unifConv' depends on axioms: [propext, Classical.choice, Quot.sound]
 
--- ▶ Block 360 · Chapter 20: A Worked Project in Analysis · Step 7: compare with Mathlib · page 166 (French edition: page 173)
+-- ▶ Block 360 · Chapter 20: A Worked Project in Analysis · Step 7: compare with Mathlib · page 166 (French edition: page 174)
 example (F : ℕ → ℝ → ℝ) (f : ℝ → ℝ) (hF : ∀ n, Continuous (F n))
     (hunif : TendstoUniformly F f atTop) : Continuous f :=
   hunif.continuous (Frequently.of_forall hF)
 
--- ▶ Block 361 · Chapter 20: A Worked Project in Analysis · Step 7: compare with Mathlib · page 166 (French edition: page 173)
+-- ▶ Block 361 · Chapter 20: A Worked Project in Analysis · Step 7: compare with Mathlib · page 166 (French edition: page 174)
 theorem unifConv_iff (F : ℕ → ℝ → ℝ) (f : ℝ → ℝ) :
     UnifConv F f ↔ TendstoUniformly F f atTop := by
   rw [Metric.tendstoUniformly_iff]

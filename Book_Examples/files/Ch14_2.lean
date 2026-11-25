@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 253 · Chapter 14: Numbers, Casts and Their Traps · Exercises · page 111 (French edition: page 115) · exercise: errors are normal until you solve it
+-- ▶ Block 253 · Chapter 14: Numbers, Casts and Their Traps · Exercises · page 111 (French edition: page 116) · exercise: errors are normal until you solve it
 
 -- Exercise 1. Before running anything, say which of these are true. Then prove
 -- the true ones and correct the false ones.

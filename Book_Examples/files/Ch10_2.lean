@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 158 · Chapter 10: Structures and Type Classes · Exercises · page 71 (French edition: page 73) · exercise: errors are normal until you solve it
+-- ▶ Block 158 · Chapter 10: Structures and Type Classes · Exercises · page 71 (French edition: page 74) · exercise: errors are normal until you solve it
 
 -- Exercise 1. A closed interval, and the fact that its length is nonnegative.
 structure ClosedInterval where

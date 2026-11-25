@@ -1,4 +1,4 @@
--- ▶ Block 397 · Chapter 22: Verified Programs · Exercises · page 183 (French edition: page 190) · exercise: errors are normal until you solve it
+-- ▶ Block 397 · Chapter 22: Verified Programs · Exercises · page 183 (French edition: page 191) · exercise: errors are normal until you solve it
 -- Exercise 1.
 def double : Nat → Nat
   | 0 => 0

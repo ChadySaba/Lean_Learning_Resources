@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 425 · Chapter 25: Proof Engineering · Sorry-driven development · page 204 (French edition: page 212)
+-- ▶ Block 425 · Chapter 25: Proof Engineering · Sorry-driven development · page 204 (French edition: page 213)
 open Filter Topology
 
 theorem bounded_of_tendsto (u : ℕ → ℝ) (l : ℝ) (h : Tendsto u atTop (𝓝 l)) :
@@ -16,7 +16,7 @@ theorem bounded_of_tendsto (u : ℕ → ℝ) (l : ℝ) (h : Tendsto u atTop (�
   refine ⟨max B (|l| + 1), fun n => ?_⟩
   sorry
 
--- ▶ Block 426 · Chapter 25: Proof Engineering · Sorry-driven development · page 205 (French edition: page 213)
+-- ▶ Block 426 · Chapter 25: Proof Engineering · Sorry-driven development · page 205 (French edition: page 214)
 theorem bounded_initial (u : ℕ → ℝ) (N : ℕ) : ∃ B, ∀ n < N, |u n| ≤ B := by
   induction N with
   | zero => exact ⟨0, fun n hn => absurd hn (Nat.not_lt_zero n)⟩

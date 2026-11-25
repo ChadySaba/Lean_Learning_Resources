@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 363 · Chapter 20: A Worked Project in Analysis · Solutions · page 168 (French edition: page 175)
+-- ▶ Block 363 · Chapter 20: A Worked Project in Analysis · Solutions · page 168 (French edition: page 176)
 
 open Filter Topology
 

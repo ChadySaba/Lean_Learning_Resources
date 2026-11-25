@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 440 · Chapter 26: Lean and AI Tools · Exercises · page 218 (French edition: page 228) · exercise: errors are normal until you solve it
+-- ▶ Block 440 · Chapter 26: Lean and AI Tools · Exercises · page 218 (French edition: page 229) · exercise: errors are normal until you solve it
 
 -- Exercise 1. An assistant returns this as a proof of:
 -- "for natural numbers, (a - b) + b = a".

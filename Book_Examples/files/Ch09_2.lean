@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 133 · Chapter 9: Inductive Types, Recursion and Induction · Exercises · page 63 (French edition: page 65) · exercise: errors are normal until you solve it
+-- ▶ Block 133 · Chapter 9: Inductive Types, Recursion and Induction · Exercises · page 63 (French edition: page 66) · exercise: errors are normal until you solve it
 
 -- Exercise 1. The length of a list.
 def len {α : Type} : List α → ℕ

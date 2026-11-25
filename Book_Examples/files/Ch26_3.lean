@@ -1,5 +1,5 @@
 import Mathlib
--- ▶ Block 442 · Chapter 26: Lean and AI Tools · Solutions · page 219 (French edition: page 228)
+-- ▶ Block 442 · Chapter 26: Lean and AI Tools · Solutions · page 219 (French edition: page 229)
 
 -- Exercise 1. No. The theorem has an escape clause, `∨ a < b`. The sentence
 -- is false for a = 2, b = 3, since subtraction in ℕ stops at 0:

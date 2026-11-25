@@ -109,7 +109,7 @@ example (a b c : ℝ) (hab : a ≤ b) (hbc : b ≤ c) : a ≤ c := by
 -- The same, using dot notation on the proof hab : a ≤ b.
 example (a b c : ℝ) (hab : a ≤ b) (hbc : b ≤ c) : a ≤ c := hab.trans hbc
 
--- ▶ Block 87 · Chapter 7: Tactics, the Core Toolkit · A complete ε–δ proof · page 46 (French edition: page 49)
+-- ▶ Block 87 · Chapter 7: Tactics, the Core Toolkit · A complete ε–δ proof · page 47 (French edition: page 49)
 example (f : ℝ → ℝ) (h : ∀ ε > 0, ∃ δ > 0, ∀ x, |x| < δ → |f x| < ε) :
     ∀ ε > 0, ∃ δ > 0, ∀ x, |x| < δ → |2 * f x| < ε := by
   intro ε hε
